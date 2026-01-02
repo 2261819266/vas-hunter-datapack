@@ -1,0 +1,38 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_item",
+            "item": "compass"
+        },
+        {
+            "function": "set_name",
+            "name": {
+                "color": "red",
+                "translate": "item.vas.tracker"
+            }
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "lodestone_tracker": {
+                    "target": {
+                        "dimension": "minecraft:overworld",
+                        "pos": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "tracked": false
+                }
+            }
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "tracker": 1
+            }
+        }
+    ]
+}
