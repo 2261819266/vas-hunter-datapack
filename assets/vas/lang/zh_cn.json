@@ -11,6 +11,7 @@
     "hover.vas.join.runner": "Join \u00a7a[Runner]",
     
     "info.vas.join.fail": "\u00a7c Fail to join the team!",
-    "info.vas.join.in": "\u00a7c You have been in the team!"
+    "info.vas.join.in": "\u00a7c You have been in the team!",
+    "info.vas.join.succeed": "\u00a7a You have joined in the team!"
 
 }
