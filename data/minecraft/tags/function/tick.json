@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "vas:tick",
+            "required": false 
+        }
+    ]
+}

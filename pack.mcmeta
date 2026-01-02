@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": {
+      "text": "hunter datapack for 1.21.11",
+      "color": "green"
+    },
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": 94
+  }
+}

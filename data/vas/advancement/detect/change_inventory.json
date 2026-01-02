@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "change_inventory":{
+            "trigger": "inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "vas:detect/change_inventory"
+    }
+}
