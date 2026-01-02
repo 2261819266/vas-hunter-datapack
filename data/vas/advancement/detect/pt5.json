@@ -1,9 +1,6 @@
 {
     "criteria": {
-        "change_inventory": {
-            "trigger": "inventory_changed"
-        },
-        "pt5": {
+        "20t": {
             "trigger": "tick",
             "conditions": {
                 "player": {
@@ -13,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "vas:detect/change_inventory"
+        "function": "vas:detect/pt5"
     }
 }

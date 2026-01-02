@@ -11,6 +11,10 @@ tellraw @s [{translate: "control.vas.select", extra: [\
     " ", \
     {translate: "team.vas.runner", color: green, \
         click_event:{action:"run_command", command: "trigger vas.join.runner"}, \
+        hover_event:{action: "show_text", value: {translate: "hover.vas.join.runner"}}}, \
+    " ", \
+    {translate: "team.vas.leave", color: white, \
+        click_event:{action:"run_command", command: "trigger vas.join.leave"}, \
         hover_event:{action: "show_text", value: {translate: "hover.vas.join.runner"}}} \
 ]}]
 

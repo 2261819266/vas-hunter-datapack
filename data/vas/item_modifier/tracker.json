@@ -31,7 +31,9 @@
         {
             "function": "set_custom_data",
             "tag": {
-                "tracker": 1
+                "tracker": 1,
+                "team_need": 1,
+                "need_killed": 1
             }
         }
     ]

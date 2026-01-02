@@ -1,0 +1,17 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_item",
+            "item": "carrot_on_a_stick"
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "selector": 1,
+                "team_need": 0,
+                "need_killed": 1
+            }
+        }
+    ]
+}
