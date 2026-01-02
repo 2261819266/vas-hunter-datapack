@@ -1,3 +1,16 @@
 {
-    "item.vas.tracker": "追踪器"
+    "item.vas.tracker": "追踪器",
+    
+    "control.vas.title": "Welcome to Hunter Datapack!",
+    "control.vas.select": "Please select the role.",
+    
+    "team.vas.hunter": "\u00a7c[Hunter]",
+    "team.vas.runner": "\u00a7a[Runner]",
+    
+    "hover.vas.join.hunter": "Join \u00a7c[Hunter]",
+    "hover.vas.join.runner": "Join \u00a7a[Runner]",
+    
+    "info.vas.join.fail": "\u00a7c Fail to join the team!",
+    "info.vas.join.in": "\u00a7c You have been in the team!"
+
 }
