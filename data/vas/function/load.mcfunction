@@ -1,10 +1,16 @@
 tellraw @a "\u00a7aThe vas-hunter-datapack has been loaded!"
 
 # add scoreboard
+scoreboard objectives add vas.temp dummy
     # system
+        #sys
 scoreboard objectives add vas.show.command dummy
 scoreboard objectives add vas.process dummy
-scoreboard objectives add vas.temp dummy
+scoreboard objectives add vas.maxuid dummy
+        #player
+            # begin with 1 to maxuid
+scoreboard objectives add vas.uid dummy
+    # trigger
 scoreboard objectives add vas.join.hunter trigger {translate: team.vas.hunter}
 scoreboard objectives add vas.join.runner trigger {translate: team.vas.runner}
 scoreboard objectives add vas.join.leave trigger {translate: team.vas.leave}
@@ -12,6 +18,7 @@ scoreboard objectives add vas.control.reshow trigger {translate: control.vas.res
 scoreboard objectives add vas.control.showCommand trigger {translate: control.vas.showCommand}
 scoreboard objectives add vas.control.hideCommand trigger {translate: control.vas.hideCommand}
 scoreboard objectives add vas.control.changeSettings trigger {translate: control.vas.changeSettings}
+    # use item
 scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
 # init
