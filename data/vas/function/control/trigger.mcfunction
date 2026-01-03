@@ -17,14 +17,10 @@ scoreboard players set @s vas.control.reshow 0
 scoreboard players enable @s vas.control.reshow
 
 execute if score @s vas.control.showCommand matches 1 run function vas:message/show_command
-scoreboard players set @s vas.control.showCommand 0
+execute if score @s vas.control.showCommand matches 0 run function vas:message/hide_command
 scoreboard players enable @s vas.control.showCommand
 
 execute if score @s vas.control.changeSettings matches 1 run function vas:control/change_settings
 scoreboard players set @s vas.control.changeSettings 0
 scoreboard players enable @s vas.control.changeSettings
-
-execute if score @s vas.control.hideCommand matches 1 run function vas:message/hide_command
-scoreboard players set @s vas.control.hideCommand 0
-scoreboard players enable @s vas.control.hideCommand
 

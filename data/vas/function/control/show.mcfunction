@@ -21,5 +21,5 @@ tellraw @s [{translate: control.vas.select, extra: [\
 tellraw @s [{translate: control.vas.reshow, click_event: {action: "run_command", command: "trigger vas.control.reshow"}}, \
     {translate: control.vas.changeSettings, click_event: {action: "run_command", command: "trigger vas.control.changeSettings"}}]
 
-tellraw @s [{translate: control.vas.showCommand, click_event: {action: "run_command", command: "trigger vas.control.showCommand"}}, \
-    {translate: control.vas.hideCommand, click_event: {action: "run_command", command: "trigger vas.control.hideCommand"}}, ]
+tellraw @s [{translate: control.vas.showCommand, click_event: {action: "run_command", command: "trigger vas.control.showCommand set 1"}}, \
+    {translate: control.vas.hideCommand, click_event: {action: "run_command", command: "trigger vas.control.showCommand set 0"}}, ]

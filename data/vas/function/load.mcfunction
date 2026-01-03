@@ -20,7 +20,6 @@ scoreboard objectives add vas.join.runner trigger {translate: team.vas.runner}
 scoreboard objectives add vas.join.leave trigger {translate: team.vas.leave}
 scoreboard objectives add vas.control.reshow trigger {translate: control.vas.reshow}
 scoreboard objectives add vas.control.showCommand trigger {translate: control.vas.showCommand}
-scoreboard objectives add vas.control.hideCommand trigger {translate: control.vas.hideCommand}
 scoreboard objectives add vas.control.changeSettings trigger {translate: control.vas.changeSettings}
     # use item
 scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
