@@ -16,4 +16,4 @@ $execute unless data storage vas:sys player[$(uid)].Pos[$(dimension_id)] run \
     function vas:sys/write_pos {dimension_id: $(dimension_id), uid: [$(uid)]}
 
 $data modify storage vas:sys player[$(uid)].Pos[$(dimension_id)].pos set from entity @s Pos
-$data modify storage vas:sys player[$(uid)].Pos[$(dimension_id)].dimension set from storage vas:sys dimensions[$(dimension_id)].dimension
+$data modify storage vas:sys player[$(uid)].Pos[$(dimension_id)].dimension set from entity @s Dimension
