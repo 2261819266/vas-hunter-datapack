@@ -1,5 +1,7 @@
 function vas:message/tell {path:"/dimension/cycle_get_entity_dimension_id"}
 
+# @arg : dimension_id
+
 execute if score #vas.get_dimension_id vas.cycle = #vas.get_dimension_id vas.cycle_end run return -1
 
 $execute store result score #success vas.temp run function vas:dimension/check_in_dimension_id {dimension_id: $(dimension_id)}

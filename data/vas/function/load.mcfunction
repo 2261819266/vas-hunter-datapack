@@ -13,6 +13,7 @@ scoreboard objectives add vas.count.dimension dummy
         #player
             # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
+scoreboard objectives add vas.dimension_id dummy
     # trigger
 scoreboard objectives add vas.join.hunter trigger {translate: team.vas.hunter}
 scoreboard objectives add vas.join.runner trigger {translate: team.vas.runner}
