@@ -6,6 +6,10 @@
     
     "control.vas.title": "Welcome to Hunter Datapack!",
     "control.vas.select": "Please select the role.",
+    "control.vas.reshow": "\u00a7a[Reshow It].",
+    "control.vas.showCommand": "\u00a7a[Show Datapack Command]",
+    "control.vas.hideCommand": "\u00a7c[Hide Datapack Command]",
+    "control.vas.changeSettings": "\u00a7d[Change Settings]",
     
     "team.vas.hunter": "\u00a7c[Hunter]",
     "team.vas.runner": "\u00a7a[Runner]",
@@ -15,9 +19,9 @@
     "hover.vas.join.runner": "Join \u00a7a[Runner]",
     "hover.vas.join.leave": "leave team",
     
-    "info.vas.join.fail": "\u00a7c Fail to join the team!",
-    "info.vas.join.in": "\u00a7c You have been in the team!",
-    "info.vas.join.succeed": "\u00a7a You have joined in the team!",
-    "info.vas.leave": "\u00a7c You have left the team!"
+    "info.vas.join.fail": "\u00a7cFail to join the team!",
+    "info.vas.join.in": "\u00a7cYou have been in the team or your gamemode is spectator!",
+    "info.vas.join.succeed": "\u00a7aYou have joined in the team!",
+    "info.vas.leave": "\u00a7cYou have left the team!"
 
 }

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "vas:detect/player_load_in"
+    }
+}

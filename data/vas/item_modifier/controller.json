@@ -12,12 +12,6 @@
                 "team_need": 0,
                 "need_killed": 1
             }
-        },
-        {
-            "function": "set_name",
-            "name": {
-                "translate": "item.vas.controller"
-            }
         }
     ]
 }
