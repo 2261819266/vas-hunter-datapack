@@ -22,6 +22,6 @@
     "info.vas.join.fail": "\u00a7cFail to join the team!",
     "info.vas.join.in": "\u00a7cYou have been in the team or your gamemode is spectator!",
     "info.vas.join.succeed": "\u00a7aYou have joined in the team!",
-    "info.vas.leave": "\u00a7cYou have left the team!"
-
+    "info.vas.leave": "\u00a7cYou have left the team!",
+    "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!"
 }

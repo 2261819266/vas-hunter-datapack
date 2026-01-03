@@ -2,13 +2,16 @@ tellraw @a "\u00a7aThe vas-hunter-datapack has been loaded!"
 
 # add scoreboard
 scoreboard objectives add vas.temp dummy
+scoreboard objectives add vas.cycle dummy
+scoreboard objectives add vas.cycle_end dummy
     # system
         #sys
 scoreboard objectives add vas.show.command dummy
 scoreboard objectives add vas.process dummy
-scoreboard objectives add vas.maxuid dummy
+scoreboard objectives add vas.count.uid dummy
+scoreboard objectives add vas.count.dimension dummy
         #player
-            # begin with 1 to maxuid
+            # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
     # trigger
 scoreboard objectives add vas.join.hunter trigger {translate: team.vas.hunter}
@@ -33,3 +36,5 @@ team add hunter {translate: team.vas.hunter}
 team modify hunter color red
 team add runner {translate: team.vas.runner}
 team modify runner color green
+
+function vas:dimension/default_dimension_register
