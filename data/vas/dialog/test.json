@@ -1,0 +1,27 @@
+{
+    "type": "confirmation",
+    "title": "Welcome",
+    "yes": {
+        "action": {
+            "type": "run_command",
+            "command": "/trigger vas.join.hunter"
+        },
+        "label": "Join Hunter"
+    },
+    "no": {
+        "label": "Join Runner",
+        "action": {
+            "type": "run_command",
+            "command": "/trigger vas.join.runner"
+        }
+    },
+    "inputs": [
+        {
+            "type": "boolean",
+            "key": "hh",
+            "label": "ab",
+            "on_false": "123",
+            "on_true": "321"
+        }
+    ]
+}

@@ -1,30 +1,43 @@
 tellraw @a "\u00a7aThe vas-hunter-datapack has been loaded!"
 
-# add scoreboard
+# add scoreboard #*
 scoreboard objectives add vas.temp dummy
 scoreboard objectives add vas.cycle dummy
 scoreboard objectives add vas.cycle_end dummy
     # system
-        #sys
+        # sys #sys
 scoreboard objectives add vas.show.command dummy
 scoreboard objectives add vas.process dummy
 scoreboard objectives add vas.count.uid dummy
 scoreboard objectives add vas.count.dimension dummy
-        #player
+        # player @a
             # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
-scoreboard objectives add vas.dimension_id dummy
-    # trigger
+        # rule #h_h_rule #h_r_rule #r_h_rule #r_r_rule
+        # e.g. #h_r_rule is for Hunter can or can't track Runner 
+scoreboard objectives add vas.rule.canTrack dummy
+scoreboard objectives add vas.rule.compass.xz dummy
+scoreboard objectives add vas.rule.compass.y dummy
+scoreboard objectives add vas.rule.compass.dimension dummy
+scoreboard objectives add vas.rule.compass.distance dummy
+        # rule #rule
+scoreboard objectives add vas.rule.compass.update dummy
+scoreboard objectives add vas.rule.runnerDiedToBe dummy
+scoreboard objectives add vas.rule.runnerIsGlow dummy
+scoreboard objectives add vas.rule.defaultHasApply dummy
+    # trigger @a
 scoreboard objectives add vas.join.hunter trigger {translate: team.vas.hunter}
 scoreboard objectives add vas.join.runner trigger {translate: team.vas.runner}
 scoreboard objectives add vas.join.leave trigger {translate: team.vas.leave}
 scoreboard objectives add vas.control.reshow trigger {translate: control.vas.reshow}
 scoreboard objectives add vas.control.showCommand trigger {translate: control.vas.showCommand}
 scoreboard objectives add vas.control.changeSettings trigger {translate: control.vas.changeSettings}
-    # use item
+    # use item @a
 scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
 # init
+    # rule
+execute unless score #rule vas.rule.defaultHasApply matches 1 run function vas:control/apply_default_rule
     # score
         # #sys: system variable
 execute unless score #sys vas.show.command matches 0..1 run scoreboard players set #sys vas.show.command 0
