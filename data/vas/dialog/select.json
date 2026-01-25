@@ -1,0 +1,47 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.vas.title.select"
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "dialog.vas.select.hunter",
+                "color": "red"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.join.hunter"
+            }
+        },
+        {
+            "label": {
+                "translate": "dialog.vas.select.runner",
+                "color": "green"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.join.runner"
+            }
+        },
+        {
+            "label": {
+                "translate": "dialog.vas.select.leave",
+                "color": "light_purple"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.join.leave"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "dialog.vas.return"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "vas:welcome"
+        }
+    }
+}

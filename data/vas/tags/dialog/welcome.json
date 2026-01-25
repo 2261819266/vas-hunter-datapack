@@ -1,0 +1,8 @@
+{
+    "values": [
+        "vas:select",
+        "vas:start",
+        "vas:stop",
+        "vas:command"
+    ]
+}

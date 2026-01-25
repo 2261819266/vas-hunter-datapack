@@ -1,0 +1,17 @@
+{
+    "type": "dialog_list",
+    "title": {
+        "translate": "dialog.vas.title.welcome",
+        "color": "light_purple",
+        "italic": true,
+        "bold": true
+    },
+    "dialogs": "#vas:welcome",
+    "exit_action": {
+        "label": {
+            "translate": "dialog.vas.exit"
+        }
+    },
+    "button_width": 310,
+    "columns": 1
+}

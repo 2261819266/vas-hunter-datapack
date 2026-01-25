@@ -8,4 +8,4 @@ function vas:detect/change_inventory
 
 tellraw @s {translate: "info.vas.leave"}
 
-function vas:control/show
+# function vas:control/show

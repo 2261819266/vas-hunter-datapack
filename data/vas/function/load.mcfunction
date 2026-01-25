@@ -26,14 +26,15 @@ scoreboard objectives add vas.rule.runnerDiedToBe dummy
 scoreboard objectives add vas.rule.runnerIsGlow dummy
 scoreboard objectives add vas.rule.defaultHasApply dummy
     # trigger @a
-scoreboard objectives add vas.join.hunter trigger {translate: team.vas.hunter}
-scoreboard objectives add vas.join.runner trigger {translate: team.vas.runner}
-scoreboard objectives add vas.join.leave trigger {translate: team.vas.leave}
-scoreboard objectives add vas.control.reshow trigger {translate: control.vas.reshow}
-scoreboard objectives add vas.control.showCommand trigger {translate: control.vas.showCommand}
-scoreboard objectives add vas.control.changeSettings trigger {translate: control.vas.changeSettings}
+scoreboard objectives add vas.join.hunter trigger {translate: score.vas.join.hunter}
+scoreboard objectives add vas.join.runner trigger {translate: score.vas.join.runner}
+scoreboard objectives add vas.join.leave trigger {translate: score.vas.join.leave}
+scoreboard objectives add vas.control.showCommand trigger {translate: score.vas.showCommand}
+scoreboard objectives add vas.control.changeSettings trigger {translate: score.vas.changeSettings}
+scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
+scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
     # use item @a
-scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
+# scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
 # init
     # rule
