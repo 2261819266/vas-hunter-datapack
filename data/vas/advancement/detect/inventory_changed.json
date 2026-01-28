@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "vas:detect/change_inventory"
+        "function": "vas:detect/inventory_changed"
     }
 }

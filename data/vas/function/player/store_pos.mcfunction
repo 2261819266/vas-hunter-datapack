@@ -1,7 +1,7 @@
 function vas:message/tell {path:"/player/store_pos"}
 
 # store position : vas:sys 
-# player[player_uid][$dimension_id$]: {dimension: "", pos: []}
+# players[player_uid][$dimension_id$]: {dimension: "", pos: []}
 
 execute store result storage vas:temp store_pos.dimension_id int 1 run \
     function vas:dimension/get_entity_dimension_id
