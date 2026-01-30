@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/dimension/default_dimension_register"}
+# function vas:message/tell {path:"/dimension/default_dimension_register"}
 
 # execute if data storage vas:sys dimensions run return 0
 

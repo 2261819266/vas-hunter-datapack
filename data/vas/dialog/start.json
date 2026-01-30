@@ -45,6 +45,13 @@
                 "translate": "dialog.vas.start.info.3"
             },
             "width": 500
+        },
+        {
+            "type": "plain_message",
+            "contents": {
+                "translate": "dialog.vas.start.info.4"
+            },
+            "width": 500
         }
     ]
 }

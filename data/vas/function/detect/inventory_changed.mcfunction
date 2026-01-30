@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/detect/inventory_changed"}
+# function vas:message/tell {path:"/detect/inventory_changed"}
 
 # execute if items entity @s player.cursor *[custom_data~{selector:1b}, item_name={translate:"item.vas.hunter"}] run function vas:control/join_hunter
 # execute if items entity @s player.cursor *[custom_data~{selector:1b}, item_name={translate:"item.vas.runner"}] run function vas:control/join_runner

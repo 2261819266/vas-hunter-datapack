@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/show"}
+# function vas:message/tell {path:"/control/show"}
 
 # tellraw @s [{translate: control.vas.title, color: light_purple, italic: true, bold: true}]
 

@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/give"}
+# function vas:message/tell {path:"/control/give"}
 
 # clear @s
 

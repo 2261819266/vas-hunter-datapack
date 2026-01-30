@@ -33,6 +33,8 @@ scoreboard objectives add vas.control.showCommand trigger {translate: score.vas.
 scoreboard objectives add vas.control.changeSettings trigger {translate: score.vas.changeSettings}
 scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
+scoreboard objectives add vas.tracking dummy {translate: score.vas.tracking}
+scoreboard objectives add vas.focus dummy {translate: score.vas.tracking}
     # use item @a
 scoreboard objectives add vas.use.compass used:compass
 # scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use

@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/apply_default_rule"}
+# function vas:message/tell {path:"/control/apply_default_rule"}
 
 scoreboard players set #rule vas.rule.defaultHasApply 1
 

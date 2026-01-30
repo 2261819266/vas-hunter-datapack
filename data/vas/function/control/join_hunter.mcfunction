@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/join_hunter"}
+# function vas:message/tell {path:"/control/join_hunter"}
 
 execute if score #sys vas.process matches 1 run return run tellraw @s {translate: "info.vas.join.fail"}
 

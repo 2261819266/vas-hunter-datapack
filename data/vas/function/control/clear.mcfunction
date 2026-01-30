@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/clear"}
+# function vas:message/tell {path:"/control/clear"}
 
 # clear @s *[custom_data~{team_need:0b}]
 

@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "components": {
+                    "item_name": {
+                        "color": "red",
+                        "translate": "item.vas.tracker"
+                    }   
+                }
+            }
+        }
+    }
+}

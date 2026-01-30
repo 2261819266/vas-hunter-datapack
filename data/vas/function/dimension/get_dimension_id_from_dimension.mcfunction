@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/dimension/get_dimension_id_from_dimension"}
+# function vas:message/tell {path:"/dimension/get_dimension_id_from_dimension"}
 
 # @arg : dimension
 

@@ -10,7 +10,16 @@
             "name": {
                 "color": "red",
                 "translate": "item.vas.tracker"
-            }
+            },
+            "target": "item_name"
+        },
+        {
+            "function": "set_name",
+            "name": {
+                "color": "red",
+                "translate": "item.vas.tracker"
+            },
+            "target": "custom_name"
         },
         {
             "function": "set_components",
@@ -60,13 +69,81 @@
                     "translate": "item.vas.lore.track",
                     "extra": [
                         {
+                            "selector": "@p[distance=0.0001.., team=hunter]"
+                        }
+                    ]
+                }
+            ],
+            "mode": "replace_all",
+            "entity": "this",
+            "conditions": [
+                {
+                    "condition": "reference",
+                    "name": "vas:player/can_track_hunter"
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {
+                    "translate": "item.vas.lore.owner",
+                    "extra": [
+                        {
+                            "selector": "@s"
+                        }
+                    ]
+                },
+                {
+                    "translate": "item.vas.lore.track",
+                    "extra": [
+                        {
+                            "selector": "@p[distance=0.0001.., team=runner]"
+                        }
+                    ]
+                }
+            ],
+            "mode": "replace_all",
+            "entity": "this",
+            "conditions": [
+                {
+                    "condition": "reference",
+                    "name": "vas:player/can_track_runner"
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {
+                    "translate": "item.vas.lore.owner",
+                    "extra": [
+                        {
+                            "selector": "@s"
+                        }
+                    ]
+                },
+                {
+                    "translate": "item.vas.lore.track",
+                    "extra": [
+                        {
                             "selector": "@p[distance=0.0001..]"
                         }
                     ]
                 }
             ],
-            "mode": "replace_section",
-            "entity": "this"
+            "mode": "replace_all",
+            "entity": "this",
+            "conditions": [
+                {
+                    "condition": "reference",
+                    "name": "vas:player/can_track_hunter"
+                },
+                {
+                    "condition": "reference",
+                    "name": "vas:player/can_track_runner"
+                }
+            ]
         }
     ]
 }

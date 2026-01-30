@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/player/get_uid_from_name/"}
+# function vas:message/tell {path:"/player/get_uid_from_name/"}
 
 # @arg name
 

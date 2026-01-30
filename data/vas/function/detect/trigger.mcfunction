@@ -1,4 +1,5 @@
-# function vas:message/tell {path:"/control/trigger"}
+# function vas:message/tell {path:"/detect/trigger/"}
+
 
 execute if score @s vas.join.hunter matches 1 run function vas:control/join_hunter
 scoreboard players set @s vas.join.hunter 0
@@ -31,4 +32,9 @@ scoreboard players enable @s vas.control.start
 execute if score @s vas.control.stop matches 1 run function vas:control/stop
 scoreboard players set @s vas.control.stop 0
 scoreboard players enable @s vas.control.stop
+
+# execute unless score @s vas.tracking matches -1 run function vas:
+# scoreboard players set @s vas.tracking -1
+scoreboard players enable @s vas.tracking
+scoreboard players enable @s vas.focus
 

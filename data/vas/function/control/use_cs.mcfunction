@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/control/use_cs"}
+# function vas:message/tell {path:"/control/use_cs"}
 
 # scoreboard players reset @s vas.cs_use
 

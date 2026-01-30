@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/player/store_pos"}
+# function vas:message/tell {path:"/player/store_pos"}
 
 # store position : vas:sys 
 # players[player_uid][$dimension_id$]: {dimension: "", pos: []}

@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/detect/changed_dimension/"}
+# function vas:message/tell {path:"/detect/changed_dimension/"}
 
 data modify storage vas:temp add_dimension.dimension set from entity @s Dimension
 

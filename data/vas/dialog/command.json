@@ -8,7 +8,7 @@
         {
             "label": {
                 "translate": "dialog.vas.command.show",
-                "color": "red"
+                "color": "green"
             },
             "action": {
                 "type": "run_command",
