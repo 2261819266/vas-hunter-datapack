@@ -3,6 +3,8 @@
     "item.vas.controller": "\u00a7dController",
     "item.vas.hunter": "\u00a7dRight click to join \u00a7c[Hunter]",
     "item.vas.runner": "\u00a7dRight click to join \u00a7a[Runner]",
+    "item.vas.lore.owner": "Owner : ",
+    "item.vas.lore.track": "Tracking : ",
     
     "dialog.vas.exit": "Exit",
     "dialog.vas.return": "Return",

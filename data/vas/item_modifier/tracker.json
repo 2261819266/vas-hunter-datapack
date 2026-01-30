@@ -25,6 +25,15 @@
                         ]
                     },
                     "tracked": false
+                },
+                "consumable": {
+                    "consume_seconds": 0,
+                    "animation": "none",
+                    "sound": "item.lodestone_compass.lock",
+                    "has_consume_particles": false
+                },
+                "use_cooldown": {
+                    "seconds": 1
                 }
             }
         },
@@ -35,6 +44,29 @@
                 "team_need": 1,
                 "need_killed": 1
             }
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {
+                    "translate": "item.vas.lore.owner",
+                    "extra": [
+                        {
+                            "selector": "@s"
+                        }
+                    ]
+                },
+                {
+                    "translate": "item.vas.lore.track",
+                    "extra": [
+                        {
+                            "selector": "@p[distance=0.0001..]"
+                        }
+                    ]
+                }
+            ],
+            "mode": "replace_section",
+            "entity": "this"
         }
     ]
 }

@@ -23,5 +23,10 @@
 		],
 		"prefix": "tri",
 		"scope": "mcfunction"
+	},
+	"create a scoreboard objective": {
+		"body": "scoreboard objectives add vas.$1 ${2:dummy}$0",
+		"prefix": "int",
+		"scope": "mcfunction"
 	}
 }
