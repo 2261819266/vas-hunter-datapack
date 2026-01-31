@@ -3,6 +3,8 @@
         "vas:select",
         "vas:start",
         "vas:stop",
-        "vas:command"
+        "vas:command",
+        "vas:compass",
+        "vas:gamemode"
     ]
 }

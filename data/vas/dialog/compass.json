@@ -1,0 +1,18 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.vas.title.compass"
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "dialog.vas.compass.nearest"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.change.nearest"
+            },
+            "width": 500
+        }
+    ]
+}

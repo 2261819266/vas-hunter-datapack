@@ -1,0 +1,20 @@
+{
+    
+    "music.unravel": {
+        "sounds": [
+            "vas:unravel",
+            "vas:call_of_silence",
+            "vas:cipher",
+            "vas:secret_base",
+            "vas:sslj"
+        ]
+    },
+    "a": {
+        "sounds": [
+            {
+                "type": "event",
+                "name": "vas:music.unravel"
+            }
+        ]
+    }
+}

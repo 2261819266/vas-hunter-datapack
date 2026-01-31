@@ -13,6 +13,8 @@
     "dialog.vas.title.command": "Command Showing Settings",
     "dialog.vas.title.start": "Start",
     "dialog.vas.title.stop": "Stop",
+    "dialog.vas.title.compass": "Compass",
+    "dialog.vas.title.gamemode": "Choose Gamemode",
     "dialog.vas.select.hunter": "Hunter",
     "dialog.vas.select.runner": "Runner",
     "dialog.vas.select.leave": "Leave Team",
@@ -29,6 +31,8 @@
     "dialog.vas.stop.info.1": "Only \u00a7aRunners\u00a7r can \u00a7cStop\u00a7r.",
     "dialog.vas.stop.info.2": "After \u00a7cStop\u00a7r, players who are \u00a7aRunners\u00a7r will be \u00a7cFAILED\u00a7r this game.",
     "dialog.vas.stop.info.3": "To \u00a7dCOMFIRM\u00a7r, type \"trigger\" in the box below",
+    "dialog.vas.compass.nearest": "Change the Tracking Player to the nearest player who can be tracked",
+    "dialog.vas.gamemode.info.1": "You can't choose gamemode when starting",
 
     "score.vas.join.hunter": "\u00a7cHunter",
     "score.vas.join.runner": "\u00a7aRunner",
@@ -39,6 +43,9 @@
     "score.vas.stop": "\u00a7cStop",
     "score.vas.tracking": "\u00a7cTracking Player",
     "score.vas.focus": "\u00a7cFocus on tracking a player instead of tracking the Nearest player",
+    "score.vas.gametime": "\u00a7aSuvival Time",
+    "score.vas.change.nearest": "Nearest",
+    "score.vas.gamemode": "gamemode",
     
     "title.vas.start": "\u00a7dHunting Has Started!",
     "title.vas.fail": "\u00a7cHunters WIN!",
@@ -56,5 +63,7 @@
     "info.vas.stop.fail": "\u00a7cFailed to Stop!",
     "info.vas.start.fail.been": "\u00a7cFailed to Start! Hunting has Started!",
     "info.vas.stop.fail.been": "\u00a7cFailed to Stop! Hunting has Stopped!",
-    "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!"
+    "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!",
+    "info.vas.change.fail": "\u00a7cFailed! Please place the compass at mainhand or offhand.",
+    "info.vas.gamemode.fail": "\u00a7cFailed! The game has been starting"
 }
