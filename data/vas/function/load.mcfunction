@@ -38,7 +38,8 @@ scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
-scoreboard objectives add vas.change.nearest trigger {translate: score.vas.change.nearest}
+scoreboard objectives add vas.compass.change.nearest trigger {translate: score.vas.compass.change.nearest}
+scoreboard objectives add vas.compass.get trigger {translate: score.vas.compass.get}
 scoreboard objectives add vas.gamemode trigger {translate: score.vas.gamemode}
 scoreboard objectives add vas.music.random trigger {translate: score.vas.music.random}
 scoreboard objectives add vas.music.stop trigger {translate: score.vas.music.stop}

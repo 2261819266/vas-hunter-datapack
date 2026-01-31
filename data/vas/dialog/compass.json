@@ -6,13 +6,24 @@
     "actions": [
         {
             "label": {
+                "translate": "dialog.vas.compass.get"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.compass.get"
+            },
+            "width": 500
+        },
+        {
+            "label": {
                 "translate": "dialog.vas.compass.nearest"
             },
             "action": {
                 "type": "run_command",
-                "command": "trigger vas.change.nearest"
+                "command": "trigger vas.compass.change.nearest"
             },
             "width": 500
         }
-    ]
+    ],
+    "columns":  1
 }

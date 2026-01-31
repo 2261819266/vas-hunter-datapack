@@ -38,9 +38,15 @@ scoreboard players enable @s vas.control.stop
 scoreboard players enable @s vas.tracking
 scoreboard players enable @s vas.focus
 
-execute if score @s vas.change.nearest matches 1 run function vas:compass/change/nearest
-scoreboard players set @s vas.change.nearest 0
-scoreboard players enable @s vas.change.nearest
+execute if score @s vas.compass.change.nearest matches 1 run function vas:compass/change/nearest
+scoreboard players set @s vas.compass.change.nearest 0
+scoreboard players enable @s vas.compass.change.nearest
+
+execute if score @s vas.compass.get matches 1 run function vas:compass/give
+scoreboard players set @s vas.compass.get 0
+scoreboard players enable @s vas.compass.get
+
+
 
 execute if score @s vas.gamemode matches 1.. run function vas:player/change_gamemode
 scoreboard players set @s vas.gamemode 0

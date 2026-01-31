@@ -1,5 +1,8 @@
 # function vas:message/tell {path:"/compass/refresh/"}
 
+item replace entity @s weapon.offhand with compass
+item modify entity @s weapon.offhand vas:tracker
+
 data modify storage vas:temp refresh.name set from entity @s equipment.offhand.components."minecraft:lore"[1].extra[0].insertion
 data modify storage vas:temp refresh.dimension set from entity @s Dimension
 
