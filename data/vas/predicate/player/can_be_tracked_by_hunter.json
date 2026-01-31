@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "team": "runner",
+        "type_specific": {
+            "type": "player",
+            "gamemode": [
+                "adventure",
+                "creative",
+                "survival"
+            ]
+        }
+    }
+}

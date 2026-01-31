@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "team": "hunter",
+        "type_specific": {
+            "type": "player",
+            "gamemode": [
+                "adventure",
+                "creative",
+                "survival"
+            ]
+        }
+    }
+}

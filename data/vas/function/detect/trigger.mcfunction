@@ -42,6 +42,10 @@ execute if score @s vas.compass.change.nearest matches 1 run function vas:compas
 scoreboard players set @s vas.compass.change.nearest 0
 scoreboard players enable @s vas.compass.change.nearest
 
+execute if score @s vas.compass.change.random matches 1 run function vas:compass/change/random
+scoreboard players set @s vas.compass.change.random 0
+scoreboard players enable @s vas.compass.change.random
+
 execute if score @s vas.compass.get matches 1 run function vas:compass/give
 scoreboard players set @s vas.compass.get 0
 scoreboard players enable @s vas.compass.get

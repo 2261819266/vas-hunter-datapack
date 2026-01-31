@@ -23,6 +23,16 @@
                 "command": "trigger vas.compass.change.nearest"
             },
             "width": 500
+        },
+        {
+            "label": {
+                "translate": "dialog.vas.compass.random"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.compass.change.random"
+            },
+            "width": 500
         }
     ],
     "columns":  1

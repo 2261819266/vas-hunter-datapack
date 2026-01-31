@@ -1,8 +1,8 @@
-# function vas:message/tell {path:"/compass/update/update_pos_offhand/"}
+# function vas:message/tell {path:"/compass/update/update_pos/"}
 
-# @arg name, uid, dimension, x, y, z
+# @arg dimension, x, y, z, actionbar, hand
 
-$item modify entity @s weapon.offhand [{ \
+$item modify entity @s weapon.$(hand) [{ \
     function: set_components, components: { \
         lodestone_tracker: { \
             target: { \
@@ -13,3 +13,5 @@ $item modify entity @s weapon.offhand [{ \
         } \
     } \
 }]
+
+$title @s actionbar $(actionbar)

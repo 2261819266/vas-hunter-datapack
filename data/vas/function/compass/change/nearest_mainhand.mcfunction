@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand vas:track_nearest

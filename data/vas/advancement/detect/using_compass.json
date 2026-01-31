@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "compass"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vas:compass/refresh"
+    }
+}
