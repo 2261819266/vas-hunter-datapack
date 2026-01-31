@@ -15,6 +15,8 @@
     "dialog.vas.title.stop": "Stop",
     "dialog.vas.title.compass": "Compass",
     "dialog.vas.title.gamemode": "Choose Gamemode",
+    "dialog.vas.title.music": "Music",
+    "dialog.vas.title.select_music": "Select Music",
     "dialog.vas.select.hunter": "Hunter",
     "dialog.vas.select.runner": "Runner",
     "dialog.vas.select.leave": "Leave Team",
@@ -33,6 +35,8 @@
     "dialog.vas.stop.info.3": "To \u00a7dCOMFIRM\u00a7r, type \"trigger\" in the box below",
     "dialog.vas.compass.nearest": "Change the Tracking Player to the nearest player who can be tracked",
     "dialog.vas.gamemode.info.1": "You can't choose gamemode when starting",
+    "dialog.vas.music.random": "Random. Per 6minutes.",
+    "dialog.vas.music.stop": "Stop music",
 
     "score.vas.join.hunter": "\u00a7cHunter",
     "score.vas.join.runner": "\u00a7aRunner",
@@ -46,6 +50,9 @@
     "score.vas.gametime": "\u00a7aSuvival Time",
     "score.vas.change.nearest": "Nearest",
     "score.vas.gamemode": "gamemode",
+    "score.vas.music.random": "random",
+    "score.vas.music.stop": "stop",
+    "score.vas.music.select": "select",
     
     "title.vas.start": "\u00a7dHunting Has Started!",
     "title.vas.fail": "\u00a7cHunters WIN!",

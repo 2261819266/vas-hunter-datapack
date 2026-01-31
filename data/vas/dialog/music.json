@@ -1,0 +1,36 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.vas.title.music"
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "dialog.vas.music.random"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.music.random set 1"
+            }
+        },
+        {
+            "label": {
+                "translate": "dialog.vas.music.stop"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.music.stop set 1"
+            }
+        },
+        {
+            "label": {
+                "translate": ""
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "vas:select_music"
+            }
+        }
+    ],
+    "columns": 1
+}

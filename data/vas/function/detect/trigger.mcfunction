@@ -46,3 +46,16 @@ execute if score @s vas.gamemode matches 1.. run function vas:player/change_game
 scoreboard players set @s vas.gamemode 0
 scoreboard players enable @s vas.gamemode
 
+execute if score @s vas.music.random matches 1 run function vas:music/random
+scoreboard players enable @s vas.music.random
+
+execute if score @s vas.music.stop matches 1 run function vas:music/stop
+scoreboard players set @s vas.music.stop 0
+scoreboard players enable @s vas.music.stop
+
+execute if score @s vas.music.select matches 1.. run \
+    scoreboard players operation @s vas.music.select_again = @s vas.music.select
+execute if score @s vas.music.select matches 1.. run function vas:music/select_music
+scoreboard players set @s vas.music.select 0
+scoreboard players enable @s vas.music.select
+

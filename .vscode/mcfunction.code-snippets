@@ -28,5 +28,15 @@
 		"body": "scoreboard objectives add vas.$1 ${2:dummy}$0",
 		"prefix": "int",
 		"scope": "mcfunction"
+	},
+	"add music": {
+		"body": [
+			"\"music.$1\": {",
+			"    \"sounds\": [",
+			"        \"vas:$1\"",
+			"    ]",
+			"}$2"
+		],
+		"prefix": "mus"
 	}
 }

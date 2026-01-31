@@ -5,6 +5,7 @@
         "vas:stop",
         "vas:command",
         "vas:compass",
-        "vas:gamemode"
+        "vas:gamemode",
+        "vas:music"
     ]
 }

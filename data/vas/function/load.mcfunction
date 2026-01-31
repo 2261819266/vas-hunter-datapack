@@ -10,11 +10,12 @@ scoreboard objectives add vas.show.command dummy
 scoreboard objectives add vas.process dummy
 scoreboard objectives add vas.count.uid dummy
 scoreboard objectives add vas.count.dimension dummy
-scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
         # player @a
             # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
 scoreboard objectives add vas.die deathCount
+scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
+scoreboard objectives add vas.musictime dummy
         # rule #h_h_rule #h_r_rule #r_h_rule #r_r_rule
         # e.g. #h_r_rule is for Hunter can or can't track Runner 
 scoreboard objectives add vas.rule.canTrack dummy
@@ -39,6 +40,10 @@ scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.change.nearest trigger {translate: score.vas.change.nearest}
 scoreboard objectives add vas.gamemode trigger {translate: score.vas.gamemode}
+scoreboard objectives add vas.music.random trigger {translate: score.vas.music.random}
+scoreboard objectives add vas.music.stop trigger {translate: score.vas.music.stop}
+scoreboard objectives add vas.music.select trigger
+scoreboard objectives add vas.music.select_again trigger
     # use item @a
 scoreboard objectives add vas.use.compass used:compass
 # scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use

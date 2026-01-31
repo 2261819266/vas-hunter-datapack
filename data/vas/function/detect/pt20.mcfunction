@@ -12,3 +12,7 @@ execute if dimension the_end unless entity @e[type=ender_dragon] \
 
 execute if score #sys vas.process matches 1 if entity @s[gamemode=!spectator, team=runner] \
     run scoreboard players add @s vas.gametime 1
+
+# execute if score @s vas.music.random matches 1 run function vas:music/random
+execute if score @s vas.music.random matches -1 run function vas:music/random_again
+execute if score @s vas.music.select_again matches 1.. run function vas:music/select_music_again

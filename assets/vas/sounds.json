@@ -1,6 +1,5 @@
 {
-    
-    "music.unravel": {
+    "music.random": {
         "sounds": [
             "vas:unravel",
             "vas:call_of_silence",
@@ -9,12 +8,29 @@
             "vas:sslj"
         ]
     },
-    "a": {
+    "music.unravel": {
         "sounds": [
-            {
-                "type": "event",
-                "name": "vas:music.unravel"
-            }
+            "vas:unravel"
+        ]
+    },
+    "music.call": {
+        "sounds": [
+            "vas:call"
+        ]
+    },
+    "music.sslj": {
+        "sounds": [
+            "vas:sslj"
+        ]
+    },
+    "music.secret": {
+        "sounds": [
+            "vas:secret"
+        ]
+    },
+    "music.cipher": {
+        "sounds": [
+            "vas:cipher"
         ]
     }
 }
