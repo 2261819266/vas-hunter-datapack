@@ -50,8 +50,6 @@ execute if score @s vas.compass.get matches 1 run function vas:compass/give
 scoreboard players set @s vas.compass.get 0
 scoreboard players enable @s vas.compass.get
 
-
-
 execute if score @s vas.gamemode matches 1.. run function vas:player/change_gamemode
 scoreboard players set @s vas.gamemode 0
 scoreboard players enable @s vas.gamemode

@@ -2,6 +2,8 @@
 
 scoreboard players set @s vas.use.compass 0
 
+data remove storage vas:temp refresh
+
 execute unless predicate vas:hand/tracker_offhand unless predicate vas:hand/tracker_mainhand run \
     return fail
 
