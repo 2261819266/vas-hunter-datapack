@@ -8,6 +8,7 @@
         "vas:gamemode",
         "vas:music",
         "vas:reset",
-        "vas:quit"
+        "vas:quit",
+        "vas:share"
     ]
 }
