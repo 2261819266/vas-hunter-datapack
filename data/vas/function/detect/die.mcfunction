@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/detect/die/"}
+# function vas:message/tell {path:"/detect/die/"}
 
 scoreboard players set @s vas.die 0
 

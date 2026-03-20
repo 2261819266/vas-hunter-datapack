@@ -1,0 +1,1 @@
+execute in minecraft:overworld run spreadplayers ~ ~ 0 1000 false @s

@@ -16,6 +16,9 @@ scoreboard objectives add vas.uid dummy
 scoreboard objectives add vas.die deathCount
 scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
 scoreboard objectives add vas.musictime dummy
+scoreboard objectives add vas.have_structure dummy
+scoreboard objectives add vas.distance_set dummy
+scoreboard objectives add vas.success dummy
         # rule #h_h_rule #h_r_rule #r_h_rule #r_r_rule
         # e.g. #h_r_rule is for Hunter can or can't track Runner 
 scoreboard objectives add vas.rule.canTrack dummy

@@ -1,0 +1,23 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_item",
+            "item": "carrot_on_a_stick"
+        },
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "controller": 1,
+                "team_need": 0,
+                "need_killed": 1
+            }
+        },
+        {
+            "function": "set_name",
+            "name": {
+                "translate": "item.vas.controller"
+            }
+        }
+    ]
+}

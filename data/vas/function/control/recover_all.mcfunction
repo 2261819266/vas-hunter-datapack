@@ -1,10 +1,8 @@
-function vas:message/tell {path:"/control/recover_all/"}
-
-tellraw @a ["\u00a77[",{"selector":"@s"},"\u00a77] "]
+# function vas:message/tell {path:"/control/recover_all/"}
 
 advancement revoke @a everything
 recipe take @a *
-xp add @a -1000000000 levels
+xp set @a 0 levels
 clear @a
 item replace entity @a enderchest.0 with air
 item replace entity @a enderchest.1 with air
@@ -37,5 +35,5 @@ execute in minecraft:the_nether run spawnpoint @a 0 0 0
 effect clear @a
 
 effect give @a hunger 3 143 true
-effect give @a saturation 2 255 true
+effect give @a saturation 2 3 true
 effect give @a instant_health 1 124 true

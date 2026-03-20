@@ -1,0 +1,1 @@
+execute in minecraft:the_nether run spreadplayers ~ ~ 0 1000 false @s
