@@ -1,3 +1,3 @@
 # function vas:message/tell {path:"/message/show_command"}
 
-scoreboard players set #sys vas.show.command 1
+scoreboard players set show.command vas.sys 1

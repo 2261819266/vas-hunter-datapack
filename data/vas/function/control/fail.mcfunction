@@ -2,4 +2,4 @@
 
 title @a title {translate: title.vas.fail}
 
-scoreboard players set #sys vas.process 0
+scoreboard players set process vas.sys 0

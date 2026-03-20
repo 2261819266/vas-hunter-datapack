@@ -1,7 +1,7 @@
 # function vas:message/tell {path:"/player/assign_uid"}
 
-scoreboard players operation @s vas.uid = #sys vas.count.uid
-scoreboard players add #sys vas.count.uid 1
+scoreboard players operation @s vas.uid = count.uid vas.sys
+scoreboard players add count.uid vas.sys 1
 
 function vas:player/store_pos
 

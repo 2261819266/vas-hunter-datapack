@@ -6,10 +6,11 @@ scoreboard objectives add vas.cycle dummy
 scoreboard objectives add vas.cycle_end dummy
     # system
         # sys #sys
-scoreboard objectives add vas.show.command dummy
-scoreboard objectives add vas.process dummy
-scoreboard objectives add vas.count.uid dummy
-scoreboard objectives add vas.count.dimension dummy
+scoreboard objectives add vas.sys dummy
+# scoreboard objectives add vas.show.command dummy
+# scoreboard objectives add vas.process dummy
+# scoreboard objectives add vas.count.uid dummy
+# scoreboard objectives add vas.count.dimension dummy
         # player @a
             # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
@@ -19,18 +20,17 @@ scoreboard objectives add vas.musictime dummy
 scoreboard objectives add vas.have_structure dummy
 scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
-        # rule #h_h_rule #h_r_rule #r_h_rule #r_r_rule
-        # e.g. #h_r_rule is for Hunter can or can't track Runner 
-scoreboard objectives add vas.rule.canTrack dummy
-scoreboard objectives add vas.rule.compass.xz dummy
-scoreboard objectives add vas.rule.compass.y dummy
-scoreboard objectives add vas.rule.compass.dimension dummy
-scoreboard objectives add vas.rule.compass.distance dummy
-        # rule #rule
-scoreboard objectives add vas.rule.compass.update dummy
-scoreboard objectives add vas.rule.runnerDiedToBe dummy
-scoreboard objectives add vas.rule.runnerIsGlow dummy
-scoreboard objectives add vas.rule.defaultHasApply dummy
+        # rule 
+scoreboard objectives add vas.rule dummy
+# scoreboard objectives add vas.rule.canTrack dummy
+# scoreboard objectives add vas.rule.compass.xz dummy
+# scoreboard objectives add vas.rule.compass.y dummy
+# scoreboard objectives add vas.rule.compass.dimension dummy
+# scoreboard objectives add vas.rule.compass.distance dummy
+# scoreboard objectives add vas.rule.compass.update dummy
+# scoreboard objectives add vas.rule.runnerDiedToBe dummy
+# scoreboard objectives add vas.rule.runnerIsGlow dummy
+# scoreboard objectives add vas.rule.defaultHasApply dummy
     # trigger @a
 scoreboard objectives add vas.join.hunter trigger {translate: score.vas.join.hunter}
 scoreboard objectives add vas.join.runner trigger {translate: score.vas.join.runner}
@@ -56,11 +56,11 @@ scoreboard objectives add vas.use.compass used:compass
 
 # init
     # rule
-execute unless score #rule vas.rule.defaultHasApply matches 1 run function vas:control/apply_default_rule
+execute unless score defaultHasApply vas.rule matches 1 run function vas:control/apply_default_rule
     # score
         # #sys: system variable
-execute unless score #sys vas.show.command matches 0..1 run scoreboard players set #sys vas.show.command 0
-execute unless score #sys vas.process matches 0..1 run scoreboard players set #sys vas.process 0 
+execute unless score show.command vas.sys matches 0..1 run scoreboard players set show.command vas.sys 0
+execute unless score process vas.sys matches 0..1 run scoreboard players set process vas.sys 0 
     # gamerule
 gamerule locator_bar false
     # team

@@ -2,7 +2,7 @@
 
 scoreboard players set @s vas.die 0
 
-execute if score #sys vas.process matches 0 run return 0
+execute if score process vas.sys matches 0 run return 0
 
 execute if entity @s[team=runner] run gamemode spectator
 
