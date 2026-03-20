@@ -44,6 +44,9 @@
     "dialog.vas.title.quit": "\u00a7cQuit",
     "dialog.vas.quit.yes": "Quit",
     "dialog.vas.quit.info": "If you want to quit and watch others, you can choose it, which makes you be a spectator. \u00a7cBut you can't join again!",
+    "dialog.vas.title.share": "\u00a7aShare",
+    "dialog.vas.share.yes": "Share",
+    "dialog.vas.share.info": "\u00a7aYou can share your coordinates and dimension \u00a7dOnly \u00a7ato your teammate!",
 
     "score.vas.join.hunter": "\u00a7cHunter",
     "score.vas.join.runner": "\u00a7aRunner",

@@ -75,3 +75,7 @@ execute if score @s vas.control.quit matches 1 run function vas:control/quit
 scoreboard players set @s vas.control.quit 0
 scoreboard players enable @s vas.control.quit
 
+execute if score @s vas.share matches 1 run function vas:share/share
+scoreboard players set @s vas.share 0
+scoreboard players enable @s vas.share
+
