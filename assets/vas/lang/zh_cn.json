@@ -85,5 +85,7 @@
     "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!",
     "info.vas.change.fail": "\u00a7cFailed! Please place the compass at mainhand or offhand.",
     "info.vas.gamemode.fail": "\u00a7cFailed! The game has been starting",
-    "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters"
+    "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters",
+    "info.vas.compass.tip": "\u00a7a(Right click to update!)",
+    "info.vas.compass.lore2": "\u00a7aThe coordinates refer to his or her last appearing one in your dimension"
 }

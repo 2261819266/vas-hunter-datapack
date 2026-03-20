@@ -14,4 +14,4 @@ $item modify entity @s weapon.$(hand) [{ \
     } \
 }]
 
-$title @s actionbar $(actionbar)
+# $title @s actionbar $(actionbar)

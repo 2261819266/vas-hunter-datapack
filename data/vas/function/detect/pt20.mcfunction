@@ -16,3 +16,8 @@ execute if score process vas.sys matches 1 if entity @s[gamemode=!spectator, tea
 # execute if score @s vas.music.random matches 1 run function vas:music/random
 execute if score @s vas.music.random matches -1 run function vas:music/random_again
 execute if score @s vas.music.select_again matches 1.. run function vas:music/select_music_again
+
+execute if score process vas.sys matches 1 if score runnerIsGlow vas.rule matches 1 run \
+    effect give @a[team=runner] glowing 15 0 true
+
+function vas:compass/show/show

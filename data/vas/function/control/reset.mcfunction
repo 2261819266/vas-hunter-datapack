@@ -1,5 +1,6 @@
 function vas:message/tell {path:"/control/reset/"}
 
+difficulty normal
 
 execute at @s in minecraft:overworld run spreadplayers ~ ~ 0 20 false @s
 
