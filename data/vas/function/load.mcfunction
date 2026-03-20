@@ -39,6 +39,7 @@ scoreboard objectives add vas.control.showCommand trigger {translate: score.vas.
 scoreboard objectives add vas.control.changeSettings trigger {translate: score.vas.changeSettings}
 scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
+scoreboard objectives add vas.control.reset trigger {translate: score.vas.reset}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.compass.change.nearest trigger {translate: score.vas.compass.change.nearest}

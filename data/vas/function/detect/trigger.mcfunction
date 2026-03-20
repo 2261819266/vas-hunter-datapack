@@ -67,3 +67,7 @@ execute if score @s vas.music.select matches 1.. run function vas:music/select_m
 scoreboard players set @s vas.music.select 0
 scoreboard players enable @s vas.music.select
 
+execute if score @s vas.control.reset matches 1 run function vas:control/reset
+scoreboard players set @s vas.control.reset 0
+scoreboard players enable @s vas.control.reset
+

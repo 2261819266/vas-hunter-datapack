@@ -16,7 +16,7 @@
     },
     "no": {
         "label": {
-            "translate": "dialog.vas.stop.no",
+            "translate": "dialog.vas.no",
             "color": "white"
         },
         "action": {
