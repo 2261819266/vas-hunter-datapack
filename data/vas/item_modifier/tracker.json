@@ -58,5 +58,11 @@
         ],
         "entity": "this",
         "mode": "replace_all"
+    },
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "vanishing_curse": 1
+        }
     }
 ]

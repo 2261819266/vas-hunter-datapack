@@ -4,4 +4,4 @@ execute as @a at @s if score @s vas.use.compass matches 1.. run function vas:com
 
 advancement revoke @s only vas:detect/pt5
 
-execute if score @s vas.die matches 1.. run function vas:detect/die
+execute if score @s vas.dieDetect matches 1.. run function vas:detect/die

@@ -7,6 +7,7 @@
         "vas:compass",
         "vas:gamemode",
         "vas:music",
-        "vas:reset"
+        "vas:reset",
+        "vas:quit"
     ]
 }

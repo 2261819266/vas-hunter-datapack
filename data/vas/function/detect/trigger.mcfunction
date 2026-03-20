@@ -71,3 +71,7 @@ execute if score @s vas.control.reset matches 1 run function vas:control/reset
 scoreboard players set @s vas.control.reset 0
 scoreboard players enable @s vas.control.reset
 
+execute if score @s vas.control.quit matches 1 run function vas:control/quit
+scoreboard players set @s vas.control.quit 0
+scoreboard players enable @s vas.control.quit
+

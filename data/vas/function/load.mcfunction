@@ -7,14 +7,12 @@ scoreboard objectives add vas.cycle_end dummy
     # system
         # sys #sys
 scoreboard objectives add vas.sys dummy
-# scoreboard objectives add vas.show.command dummy
-# scoreboard objectives add vas.process dummy
-# scoreboard objectives add vas.count.uid dummy
-# scoreboard objectives add vas.count.dimension dummy
         # player @a
             # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
-scoreboard objectives add vas.die deathCount
+scoreboard objectives add vas.dieDetect deathCount
+scoreboard objectives add vas.die deathCount { translate: score.vas.die }
+scoreboard objectives add vas.kill playerKillCount { translate: score.vas.kill }
 scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
 scoreboard objectives add vas.musictime dummy
 scoreboard objectives add vas.have_structure dummy
@@ -22,15 +20,6 @@ scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
         # rule 
 scoreboard objectives add vas.rule dummy
-# scoreboard objectives add vas.rule.canTrack dummy
-# scoreboard objectives add vas.rule.compass.xz dummy
-# scoreboard objectives add vas.rule.compass.y dummy
-# scoreboard objectives add vas.rule.compass.dimension dummy
-# scoreboard objectives add vas.rule.compass.distance dummy
-# scoreboard objectives add vas.rule.compass.update dummy
-# scoreboard objectives add vas.rule.runnerDiedToBe dummy
-# scoreboard objectives add vas.rule.runnerIsGlow dummy
-# scoreboard objectives add vas.rule.defaultHasApply dummy
     # trigger @a
 scoreboard objectives add vas.join.hunter trigger {translate: score.vas.join.hunter}
 scoreboard objectives add vas.join.runner trigger {translate: score.vas.join.runner}
@@ -40,6 +29,7 @@ scoreboard objectives add vas.control.changeSettings trigger {translate: score.v
 scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
 scoreboard objectives add vas.control.reset trigger {translate: score.vas.reset}
+scoreboard objectives add vas.control.quit trigger {translate: score.vas.quit}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.compass.change.nearest trigger {translate: score.vas.compass.change.nearest}
@@ -70,3 +60,6 @@ team add runner {translate: team.vas.runner}
 team modify runner color green
 
 function vas:dimension/default_dimension_register
+
+scoreboard objectives setdisplay below_name vas.kill
+scoreboard objectives setdisplay list vas.die
