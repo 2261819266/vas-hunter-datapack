@@ -79,3 +79,6 @@ execute if score @s vas.share matches 1 run function vas:share/share
 scoreboard players set @s vas.share 0
 scoreboard players enable @s vas.share
 
+execute if score @s vas.control.rule matches 1 run function vas:rule/change
+scoreboard players set @s vas.control.rule 0
+scoreboard players enable @s vas.control.rule

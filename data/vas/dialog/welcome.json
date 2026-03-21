@@ -1,7 +1,7 @@
 {
     "type": "dialog_list",
     "title": {
-        "translate": "dialog.vas.title.welcome",
+        "translate": "dialog.vas.welcome.title",
         "color": "light_purple",
         "italic": true,
         "bold": true

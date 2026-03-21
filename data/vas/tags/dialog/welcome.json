@@ -9,6 +9,7 @@
         "vas:music",
         "vas:reset",
         "vas:quit",
-        "vas:share"
+        "vas:share",
+        "vas:rule"
     ]
 }

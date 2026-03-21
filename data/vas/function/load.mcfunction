@@ -30,7 +30,7 @@ scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
 scoreboard objectives add vas.control.reset trigger {translate: score.vas.reset}
 scoreboard objectives add vas.control.quit trigger {translate: score.vas.quit}
-scoreboard objectives add vas.share trigger {translate: score.vas.quit}
+scoreboard objectives add vas.share trigger {translate: score.vas.share}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.compass.change.nearest trigger {translate: score.vas.compass.change.nearest}
@@ -41,13 +41,24 @@ scoreboard objectives add vas.music.random trigger {translate: score.vas.music.r
 scoreboard objectives add vas.music.stop trigger {translate: score.vas.music.stop}
 scoreboard objectives add vas.music.select trigger
 scoreboard objectives add vas.music.select_again trigger
+scoreboard objectives add vas.rule.runnerDiedToBe trigger
+scoreboard objectives add vas.rule.runnerIsGlow trigger
+scoreboard objectives add vas.rule.compass.dimension trigger
+scoreboard objectives add vas.rule.compass.distance trigger
+scoreboard objectives add vas.rule.compass.xz trigger
+scoreboard objectives add vas.rule.compass.y trigger
+scoreboard objectives add vas.rule.hunter.cantrack.hunter trigger
+scoreboard objectives add vas.rule.hunter.cantrack.runner trigger
+scoreboard objectives add vas.rule.runner.cantrack.hunter trigger
+scoreboard objectives add vas.rule.runner.cantrack.runner trigger
+scoreboard objectives add vas.control.rule trigger
     # use item @a
 scoreboard objectives add vas.use.compass used:compass
 # scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
 # init
     # rule
-execute unless score defaultHasApply vas.rule matches 1 run function vas:control/apply_default_rule
+execute unless score defaultHasApply vas.rule matches 1 run function vas:rule/apply_default_rule
     # score
         # #sys: system variable
 execute unless score show.command vas.sys matches 0..1 run scoreboard players set show.command vas.sys 0

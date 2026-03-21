@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.vas.title.select"
+        "translate": "dialog.vas.select.title"
     },
     "actions": [
         {

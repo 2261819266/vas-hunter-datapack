@@ -1,17 +1,17 @@
 {
     "type": "confirmation",
     "title": {
-        "translate": "dialog.vas.reset.title",
+        "translate": "dialog.vas.changeRule.title",
         "color": "green"
     },
     "yes": {
         "label": {
-            "translate": "dialog.vas.reset.yes",
+            "translate": "dialog.vas.changeRule.yes",
             "color": "green"
         },
         "action": {
             "type": "run_command",
-            "command": "trigger vas.control.reset"
+            "command": "trigger vas.control.rule"
         }
     },
     "no": {
@@ -28,7 +28,7 @@
         {
             "type": "plain_message",
             "contents": {
-                "translate": "dialog.vas.reset.info"
+                "translate": "dialog.vas.changeRule.info"
             },
             "width": 500
         }

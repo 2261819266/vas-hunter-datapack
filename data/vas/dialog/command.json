@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.vas.title.command",
+        "translate": "dialog.vas.command.title",
         "color": "light_purple"
     },
     "actions": [

@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.vas.title.gamemode"
+        "translate": "dialog.vas.gamemode.title"
     },
     "actions": [
         {

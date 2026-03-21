@@ -46,7 +46,7 @@
     {
         "function": "set_custom_data",
         "tag": {
-            "tracker": 1
+            "tracking": 1
         }
     },
     {

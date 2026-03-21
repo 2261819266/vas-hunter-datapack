@@ -1,7 +1,7 @@
 {
     "type": "confirmation",
     "title": {
-        "translate": "dialog.vas.title.share",
+        "translate": "dialog.vas.share.title",
         "color": "green"
     },
     "yes": {

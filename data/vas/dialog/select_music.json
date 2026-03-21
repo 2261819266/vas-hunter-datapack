@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.vas.title.select_music"
+        "translate": "dialog.vas.select_music.title"
     },
     "actions": [
         {

@@ -17,9 +17,11 @@
 	// }
 	"give trigger": {
 		"body": [
-			"execute if score @s vas.${2|join,control|}.$1 matches 1 run function vas:$3",
-			"scoreboard players set @s vas.${2|join,control|}.$1 0",
-			"scoreboard players enable @s vas.${2|join,control|}.$1\n\n$0"
+			"execute if score @s vas.rule.$1 matches 0..1 run \\",
+			"    scoreboard players operation $1 vas.rule = @s vas.rule.$1",
+			"scoreboard players set @s vas.rule.$1 -1",
+			"scoreboard players enable @s vas.rule.$1",
+			"$0"
 		],
 		"prefix": "tri",
 		"scope": "mcfunction"

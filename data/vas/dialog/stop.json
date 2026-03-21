@@ -1,7 +1,7 @@
 {
     "type": "confirmation",
     "title": {
-        "translate": "dialog.vas.title.stop",
+        "translate": "dialog.vas.stop.title",
         "color": "red"
     },
     "yes": {
