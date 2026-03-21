@@ -11,6 +11,7 @@ data modify storage vas:temp dialog set value { \
 
 function vas:rule/change_apply { rule: runnerDiedToBe }
 function vas:rule/change_apply { rule: runnerIsGlow }
+function vas:rule/change_apply { rule: compass.update }
 function vas:rule/change_apply { rule: compass.dimension }
 function vas:rule/change_apply { rule: compass.distance }
 function vas:rule/change_apply { rule: compass.xz }

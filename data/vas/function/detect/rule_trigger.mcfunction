@@ -14,6 +14,13 @@ execute if score @s vas.rule.runnerIsGlow matches 0..1 run \
 scoreboard players set @s vas.rule.runnerIsGlow -1
 scoreboard players enable @s vas.rule.runnerIsGlow
 
+execute if score @s vas.rule.compass.update matches 0..1 run \
+    scoreboard players operation compass.update vas.rule = @s vas.rule.compass.update
+execute if score @s vas.rule.compass.update matches 0..1 run \
+    function vas:rule/change
+scoreboard players set @s vas.rule.compass.update -1
+scoreboard players enable @s vas.rule.compass.update
+
 execute if score @s vas.rule.compass.dimension matches 0..1 run \
     scoreboard players operation compass.dimension vas.rule = @s vas.rule.compass.dimension
 execute if score @s vas.rule.compass.dimension matches 0..1 run \

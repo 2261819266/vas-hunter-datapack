@@ -21,4 +21,7 @@ scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
 scoreboard players set @a[gamemode=!spectator, team=runner] vas.gametime 0
 scoreboard objectives setdisplay sidebar vas.gametime
 
+scoreboard players reset * vas.die
+scoreboard players reset * vas.kill 
+
 execute as @a run function vas:compass/give

@@ -14,11 +14,51 @@
             "translate": "item.vas.tracker",
             "extra": [
                 {
-                    "translate": "info.vas.compass.tip"
+                    "translate": "info.vas.compass.tip.0"
                 }
             ]
         },
-        "target": "custom_name"
+        "target": "custom_name",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {
+                    "type": "score",
+                    "score": "vas.rule",
+                    "target": {
+                        "type": "fixed",
+                        "name": "compass.update"
+                    }
+                },
+                "range": 0
+            }
+        ]
+    },
+    {
+        "function": "set_name",
+        "name": {
+            "translate": "item.vas.tracker",
+            "extra": [
+                {
+                    "translate": "info.vas.compass.tip.1"
+                }
+            ]
+        },
+        "target": "custom_name",
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {
+                    "type": "score",
+                    "score": "vas.rule",
+                    "target": {
+                        "type": "fixed",
+                        "name": "compass.update"
+                    }
+                },
+                "range": 1
+            }
+        ]
     },
     {
         "function": "set_components",
@@ -41,7 +81,21 @@
                     }
                 }
             }
-        }
+        },
+        "conditions": [
+            {
+                "condition": "value_check",
+                "value": {
+                    "type": "score",
+                    "score": "vas.rule",
+                    "target": {
+                        "type": "fixed",
+                        "name": "compass.update"
+                    }
+                },
+                "range": 0
+            }
+        ]
     },
     {
         "function": "set_custom_data",

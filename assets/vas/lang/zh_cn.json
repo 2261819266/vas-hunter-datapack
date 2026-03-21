@@ -50,6 +50,7 @@
     "dialog.vas.rule.title": "\u00a7dChange rules",
     "dialog.vas.rule.runnerDiedToBe": "Died runners will be: ",
     "dialog.vas.rule.runnerIsGlow": "Is runners glowing: ",
+    "dialog.vas.rule.compass.update": "Auto update compass: ",
     "dialog.vas.rule.compass.dimension": "Show tracked player's dimension: ",
     "dialog.vas.rule.compass.distance": "Show tracked player's distance from you: ",
     "dialog.vas.rule.compass.xz": "Show tracked player's xz coordinates: ",
@@ -110,6 +111,7 @@
     "info.vas.change.fail": "\u00a7cFailed! Please place the compass at mainhand or offhand.",
     "info.vas.gamemode.fail": "\u00a7cFailed! The game has been starting",
     "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters",
-    "info.vas.compass.tip": "\u00a7a(Right click to update!)",
+    "info.vas.compass.tip.0": "\u00a7a(Right click to update!)",
+    "info.vas.compass.tip.1": "\u00a7a(Auto update in hand)",
     "info.vas.compass.lore2": "\u00a7aThe coordinates refer to his or her last appearing one in your dimension"
 }

@@ -35,6 +35,13 @@ execute store result storage vas:temp show.dimension_id int 1 run \
 data modify storage vas:temp show.x set from storage vas:temp show.item.components.minecraft:lodestone_tracker.target.pos[0]
 data modify storage vas:temp show.y set from storage vas:temp show.item.components.minecraft:lodestone_tracker.target.pos[1]
 data modify storage vas:temp show.z set from storage vas:temp show.item.components.minecraft:lodestone_tracker.target.pos[2]
+execute store result storage vas:temp show.x0 int 1 run data get entity @s Pos[0]
+execute store result storage vas:temp show.y0 int 1 run data get entity @s Pos[1]
+execute store result storage vas:temp show.z0 int 1 run data get entity @s Pos[2]
 data modify storage vas:temp show.name set from storage vas:temp show.item.components."minecraft:lore"[1].extra[0].insertion
+
+execute if score compass.distance vas.rule matches 1 \
+    store result storage vas:temp show.distance int 1 run \
+    function vas:compass/show/get_distance with storage vas:temp show
 
 function vas:compass/show/build with storage vas:temp show

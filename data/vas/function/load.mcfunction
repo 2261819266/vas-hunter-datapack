@@ -18,6 +18,7 @@ scoreboard objectives add vas.musictime dummy
 scoreboard objectives add vas.have_structure dummy
 scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
+scoreboard objectives add vas.hasItem dummy
         # rule 
 scoreboard objectives add vas.rule dummy
     # trigger @a
@@ -43,6 +44,7 @@ scoreboard objectives add vas.music.select trigger
 scoreboard objectives add vas.music.select_again trigger
 scoreboard objectives add vas.rule.runnerDiedToBe trigger
 scoreboard objectives add vas.rule.runnerIsGlow trigger
+scoreboard objectives add vas.rule.compass.update trigger
 scoreboard objectives add vas.rule.compass.dimension trigger
 scoreboard objectives add vas.rule.compass.distance trigger
 scoreboard objectives add vas.rule.compass.xz trigger
