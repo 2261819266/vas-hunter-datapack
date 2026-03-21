@@ -21,9 +21,9 @@ execute if score @s vas.control.showCommand matches 1 run function vas:message/s
 execute if score @s vas.control.showCommand matches 0 run function vas:message/hide_command
 scoreboard players enable @s vas.control.showCommand
 
-execute if score @s vas.control.changeSettings matches 1 run function vas:control/change_settings
-scoreboard players set @s vas.control.changeSettings 0
-scoreboard players enable @s vas.control.changeSettings
+# execute if score @s vas.control.changeSettings matches 1 run function vas:control/change_settings
+# scoreboard players set @s vas.control.changeSettings 0
+# scoreboard players enable @s vas.control.changeSettings
 
 execute if score @s vas.control.start matches 1 run function vas:control/start
 scoreboard players set @s vas.control.start 0
@@ -35,8 +35,9 @@ scoreboard players enable @s vas.control.stop
 
 # execute unless score @s vas.tracking matches -1 run function vas:
 # scoreboard players set @s vas.tracking -1
-scoreboard players enable @s vas.tracking
-scoreboard players enable @s vas.focus
+execute store success score #choose vas.temp run function vas:compass/refresh
+execute store success score #choose vas.temp run scoreboard players enable @s vas.tracking
+execute if score #choose vas.temp matches 1 run function vas:compass/refresh
 
 execute if score @s vas.compass.change.nearest matches 1 run function vas:compass/change/nearest
 scoreboard players set @s vas.compass.change.nearest 0
