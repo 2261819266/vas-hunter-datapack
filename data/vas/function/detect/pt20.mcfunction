@@ -23,7 +23,11 @@ execute if score process vas.sys matches 1 if score runnerIsGlow vas.rule matche
 function vas:compass/show/show
 
 execute store result score @s vas.hasItem run clear @s * 0
-execute unless score @s vas.hasItem matches 1.. if entity @e[type=player, distance=0] run function vas:compass/give
+execute unless score @s vas.hasItem matches 1.. \
+    if entity @e[type=player, distance=0, predicate=vas:player/can_have_compass] run \
+    function vas:compass/give
+
+execute unless predicate vas:player/can_have_compass run clear @s compass[item_name=tracker]
 
 execute as @a at @s if score compass.update vas.rule matches 1 \
     if predicate vas:hand/tracker_mainhand run function vas:compass/refresh

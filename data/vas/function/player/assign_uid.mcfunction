@@ -7,10 +7,10 @@ function vas:player/store_pos
 
 # get player name
 
-summon text_display ~ ~ ~
-data modify entity @n[type=text_display] text set value {selector: "@p"}
+execute summon text_display run tag @s add assigning
+data modify entity @n[type=text_display, tag=assigning] text set value {selector: "@p"}
 
-data modify storage vas:sys players[-1].name set from entity @n[type=text_display] text.insertion
-data modify storage vas:sys players[-1].text set from entity @n[type=text_display] text
+data modify storage vas:sys players[-1].name set from entity @n[type=text_display, tag=assigning] text.insertion
+data modify storage vas:sys players[-1].text set from entity @n[type=text_display, tag=assigning] text
 
-kill @n[type=text_display]
+kill @n[type=text_display, tag=assigning]
