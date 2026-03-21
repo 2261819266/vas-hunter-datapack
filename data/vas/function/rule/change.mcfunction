@@ -1,4 +1,6 @@
-function vas:message/tell {path:"/rule/change/"} 
+# function vas:message/tell {path:"/rule/change/"} 
+
+execute if score process vas.sys matches 1 run return run tellraw @s {translate: info.vas.changeRule.fail}
 
 data modify storage vas:temp dialog set value { \
     "title": { \

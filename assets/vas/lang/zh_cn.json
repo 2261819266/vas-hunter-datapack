@@ -109,6 +109,7 @@
     "info.vas.stop.fail.been": "\u00a7cFailed to Stop! Hunting has Stopped!",
     "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!",
     "info.vas.change.fail": "\u00a7cFailed! Please place the compass at mainhand or offhand.",
+    "info.vas.changeRule.fail": "\u00a7cYou CAN'T change rule when game has STARTED",
     "info.vas.gamemode.fail": "\u00a7cFailed! The game has been starting",
     "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters",
     "info.vas.compass.tip.0": "\u00a7a(Right click to update!)",
