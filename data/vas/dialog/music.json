@@ -24,7 +24,7 @@
         },
         {
             "label": {
-                "translate": "dialog.vas.title.select_music"
+                "translate": "dialog.vas.select_music.title"
             },
             "action": {
                 "type": "show_dialog",
