@@ -1,4 +1,12 @@
-tellraw @a "\u00a7aThe vas-hunter-datapack has been loaded!"
+tellraw @a { \
+    extra:[ \
+        { translate: info.vas.load.0 }, \
+        { text: "[", color: "gray" }, \
+        { keybind: "key.quickActions", color: "green" }, \
+        { text: "]", color: "gray" }, \
+        { translate: info.vas.load.1 } \
+    ], text: "" \
+}
 
 # add scoreboard #*
 scoreboard objectives add vas.temp dummy

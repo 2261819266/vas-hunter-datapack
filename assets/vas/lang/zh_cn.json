@@ -117,5 +117,7 @@
     "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters",
     "info.vas.compass.tip.0": "\u00a7a(Right click to update!)",
     "info.vas.compass.tip.1": "\u00a7a(Auto update in hand)",
-    "info.vas.compass.lore2": "\u00a7aThe coordinates refer to his or her last appearing one in your dimension"
+    "info.vas.compass.lore2": "\u00a7aThe coordinates refer to his or her last appearing one in your dimension",
+    "info.vas.load.0": "\u00a7aThe vas-hunter-datapack has been loaded!\n\u00a7dPress ",
+    "info.vas.load.1": "\u00a7d to start!"
 }
