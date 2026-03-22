@@ -54,6 +54,7 @@ scoreboard objectives add vas.rule.hunter.cantrack.runner trigger
 scoreboard objectives add vas.rule.runner.cantrack.hunter trigger
 scoreboard objectives add vas.rule.runner.cantrack.runner trigger
 scoreboard objectives add vas.control.rule trigger
+scoreboard objectives add vas.compass.choose trigger
     # use item @a
 scoreboard objectives add vas.use.compass used:compass
 # scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use

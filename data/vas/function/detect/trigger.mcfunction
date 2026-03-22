@@ -84,3 +84,7 @@ scoreboard players enable @s vas.share
 execute if score @s vas.control.rule matches 1 run function vas:rule/change
 scoreboard players set @s vas.control.rule 0
 scoreboard players enable @s vas.control.rule
+
+execute if score @s vas.compass.choose matches 1 run function vas:compass/choose/main
+scoreboard players set @s vas.compass.choose 0
+scoreboard players enable @s vas.compass.choose

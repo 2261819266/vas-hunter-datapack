@@ -30,6 +30,7 @@
     "dialog.vas.stop.info.2": "After \u00a7cStop\u00a7r, players who are \u00a7aRunners\u00a7r will be \u00a7cFAILED\u00a7r this game.",
     "dialog.vas.stop.info.3": "To \u00a7dCOMFIRM\u00a7r, type \"trigger\" in the box below",
     "dialog.vas.compass.title": "Compass",
+    "dialog.vas.compass.choose": "Choose player who you will track",
     "dialog.vas.compass.nearest": "Track Nearest Player",
     "dialog.vas.compass.random": "Track Random Player",
     "dialog.vas.compass.get": "Get a Compass",

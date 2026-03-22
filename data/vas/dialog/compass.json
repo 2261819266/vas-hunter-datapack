@@ -16,6 +16,16 @@
         },
         {
             "label": {
+                "translate": "dialog.vas.compass.choose"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger vas.compass.choose"
+            },
+            "width": 500
+        },
+        {
+            "label": {
                 "translate": "dialog.vas.compass.nearest"
             },
             "action": {
@@ -35,5 +45,5 @@
             "width": 500
         }
     ],
-    "columns":  1
+    "columns": 1
 }
