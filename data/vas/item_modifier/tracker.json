@@ -78,6 +78,9 @@
                     "item_name": "tracker",
                     "custom_name": {
                         "translate": "item.vas.tracker"
+                    },
+                    "custom_data": {
+                        "tracker": 1
                     }
                 }
             }
@@ -100,7 +103,8 @@
     {
         "function": "set_custom_data",
         "tag": {
-            "tracking": 1
+            "tracking": 1,
+            "tracker": 1
         }
     },
     {
@@ -114,7 +118,11 @@
                     }
                 ]
             },
-            ""
+            "",
+            "",
+            {
+                "translate": "item.vas.lore.change"
+            }
         ],
         "entity": "this",
         "mode": "replace_all"

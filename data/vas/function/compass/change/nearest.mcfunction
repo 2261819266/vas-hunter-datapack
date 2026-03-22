@@ -1,3 +1,5 @@
+# function vas:message/tell {path:"/compass/change/nearest/"}
+
 function vas:compass/refresh
 tag @s add using_compass
 execute store result score @s vas.tracking run \

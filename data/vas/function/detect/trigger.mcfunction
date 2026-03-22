@@ -35,9 +35,10 @@ scoreboard players enable @s vas.control.stop
 
 # execute unless score @s vas.tracking matches -1 run function vas:
 # scoreboard players set @s vas.tracking -1
-execute store success score #choose vas.temp run function vas:compass/refresh
-execute store success score #choose vas.temp run scoreboard players enable @s vas.tracking
-execute if score #choose vas.temp matches 1 run function vas:compass/refresh
+# execute store success score #choose vas.temp run function vas:compass/refresh
+scoreboard players reset choose vas.temp
+execute store success score choose vas.temp run scoreboard players enable @s vas.tracking
+execute if score choose vas.temp matches 1 run function vas:compass/refresh
 
 execute if score @s vas.compass.change.nearest matches 1 run function vas:compass/change/nearest
 scoreboard players set @s vas.compass.change.nearest 0

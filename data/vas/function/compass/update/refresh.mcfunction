@@ -2,7 +2,6 @@
 
 # @arg uid, dimension, hand, hand_, dimension_id, team
 
-$item replace entity @s weapon.$(hand) with compass
 $item modify entity @s weapon.$(hand) vas:tracker
 
 # $execute unless entity @p[scores={vas.uid = $(uid)}, tag=!using_compass, predicate=vas:player/can_be_tracked_by_$(team)] run \ 

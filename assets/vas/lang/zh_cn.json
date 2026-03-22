@@ -5,6 +5,7 @@
     "item.vas.runner": "\u00a7dRight click to join \u00a7a[Runner]",
     "item.vas.lore.owner": "\u00a7dOwner : ",
     "item.vas.lore.track": "\u00a7dTracking : ",
+    "item.vas.lore.change": "\u00a7dDrop it when sneaking to select player",
     
     "dialog.vas.exit": "Exit",
     "dialog.vas.return": "Return",
@@ -110,7 +111,8 @@
     "info.vas.get.dimension.fail": "\u00a7cCan't get your dimension!",
     "info.vas.change.fail": "\u00a7cFailed! Please place the compass at mainhand or offhand.",
     "info.vas.changeRule.fail": "\u00a7cYou CAN'T change rule when game has STARTED",
-    "info.vas.gamemode.fail": "\u00a7cFailed! The game has been starting",
+    "info.vas.gamemode.fail": "\u00a7cFailed! The game has started",
+    "info.vas.reset.fail": "\u00a7cYou can't reset when the game has started",
     "info.vas.search.has": "\u00a7athere has been a good structure below the distance of 100 meters",
     "info.vas.compass.tip.0": "\u00a7a(Right click to update!)",
     "info.vas.compass.tip.1": "\u00a7a(Auto update in hand)",

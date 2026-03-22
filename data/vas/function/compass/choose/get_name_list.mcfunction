@@ -3,3 +3,4 @@ $data modify entity @s text set value \
 
 data modify storage vas:temp choose.list set from entity @s text.extra
 
+kill @s

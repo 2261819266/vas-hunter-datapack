@@ -1,4 +1,6 @@
-function vas:message/tell {path:"/control/reset/"}
+# function vas:message/tell {path:"/control/reset/"}
+
+execute if score process vas.sys matches 1 run return run tellraw @s {translate: "info.vas.reset.fail"}
 
 difficulty normal
 
@@ -10,3 +12,5 @@ execute at @s run setworldspawn
 function vas:control/recover_all
 
 tellraw @a ["\u00a77[",{"selector":"@a"},"\u00a77] "]
+
+data remove storage vas:sys players[].Pos

@@ -23,5 +23,3 @@ scoreboard objectives setdisplay sidebar vas.gametime
 
 scoreboard players reset * vas.die
 scoreboard players reset * vas.kill 
-
-# execute as @a run function vas:compass/give

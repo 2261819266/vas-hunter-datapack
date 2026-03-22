@@ -1,4 +1,4 @@
-function vas:message/tell {path:"/compass/choose/add_action/"}
+# function vas:message/tell {path:"/compass/choose/add_action/"}
 
 execute unless data storage vas:temp choose.list[0] run return fail
 
