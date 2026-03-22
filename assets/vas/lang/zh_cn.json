@@ -99,6 +99,9 @@
     
     "team.vas.hunter": "\u00a7cHunter",
     "team.vas.runner": "\u00a7aRunner",
+
+    "advancements.hunter.title": "Vas Hunter Datapack",
+    "advancements.hunter.root.description": "Welcome to Hunter Datapack!\n\u00a7dPress",
     
     "info.vas.join.fail": "\u00a7cFailed to join the team!",
     "info.vas.join.in": "\u00a7cYou have been in the team or your gamemode is spectator!",

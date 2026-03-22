@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": {
+            "extra": [
+                {
+                    "translate": "advancements.hunter.root.description"
+                },
+                {
+                    "text": "[",
+                    "color": "gray"
+                },
+                {
+                    "keybind": "key.quickActions",
+                    "color": "green"
+                },
+                {
+                    "text": "]",
+                    "color": "gray"
+                },
+                {
+                    "translate": "info.vas.load.1"
+                }
+            ],
+            "text": ""
+        },
+        "icon": {
+            "id": "compass"
+        },
+        "title": {
+            "translate": "advancements.hunter.title"
+        },
+        "background": "block/lodestone_side",
+        "announce_to_chat": false,
+        "show_toast": false
+    }
+}
