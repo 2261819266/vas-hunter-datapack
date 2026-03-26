@@ -1,3 +1,5 @@
+# function vas:message/tell {path:"/compass/choose/main/"}
+
 tag @s add building_choice
 
 execute if entity @s[team=hunter] run data modify storage vas:temp choose.team set value hunter
