@@ -5,7 +5,11 @@
     "gamerule",
     "keybind",
     "mainhand",
+    "overworld",
+    "playsound",
     "setdisplay",
+    "spreadplayers",
+    "stopsound",
     "tellraw"
   ]
 }
