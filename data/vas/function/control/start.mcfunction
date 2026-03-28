@@ -13,6 +13,9 @@ gamemode survival @a[team=runner]
 gamemode survival @a[team=hunter]
 gamemode spectator @a[team=!runner, team=!hunter]
 
+gamerule locator_bar false
+gamerule send_command_feedback false
+
 scoreboard players set process vas.sys 1
 
 scoreboard objectives remove vas.gameTime
