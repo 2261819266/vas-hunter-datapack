@@ -40,7 +40,7 @@
     "dialog.vas.quit.title": "\u00a7c退出",
     "dialog.vas.quit.yes": "退出",
     "dialog.vas.quit.info": "如果你想退出并观看其他玩家，可以选择退出，这将使你成为旁观者。\u00a7c但你不能再次加入游戏!",
-    "dialog.vas.share.title": "\u00a7a分享",
+    "dialog.vas.share.title": "\u00a7a分享坐标",
     "dialog.vas.share.yes": "分享",
     "dialog.vas.share.info": "\u00a7a你可以分享你的坐标和维度 \u00a7d仅有\u00a7a你的队友可以看见!",
     "dialog.vas.rule.title": "\u00a7d更改规则",
