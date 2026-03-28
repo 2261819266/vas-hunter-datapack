@@ -1,12 +1,4 @@
-tellraw @a { \
-    extra:[ \
-        { translate: info.vas.load.0 }, \
-        { text: "[", color: "gray" }, \
-        { keybind: "key.quickActions", color: "green" }, \
-        { text: "]", color: "gray" }, \
-        { translate: info.vas.load.1 } \
-    ], text: "" \
-}
+tellraw @a { translate: info.vas.load, with: [{ keybind: "key.quickActions", color: "green" }] }
 
 # add scoreboard #*
 scoreboard objectives add vas.temp dummy
@@ -16,13 +8,12 @@ scoreboard objectives add vas.cycle_end dummy
         # sys #sys
 scoreboard objectives add vas.sys dummy
         # player @a
-            # 0 to maxuid - 1
 scoreboard objectives add vas.uid dummy
 scoreboard objectives add vas.dieDetect deathCount
 scoreboard objectives add vas.die deathCount { translate: score.vas.die }
 scoreboard objectives add vas.kill playerKillCount { translate: score.vas.kill }
-scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
-scoreboard objectives add vas.musictime dummy
+scoreboard objectives add vas.gameTime dummy { translate: score.vas.gameTime }
+scoreboard objectives add vas.musicTime dummy
 scoreboard objectives add vas.have_structure dummy
 scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
@@ -57,10 +48,10 @@ scoreboard objectives add vas.rule.compass.dimension trigger
 scoreboard objectives add vas.rule.compass.distance trigger
 scoreboard objectives add vas.rule.compass.xz trigger
 scoreboard objectives add vas.rule.compass.y trigger
-scoreboard objectives add vas.rule.hunter.cantrack.hunter trigger
-scoreboard objectives add vas.rule.hunter.cantrack.runner trigger
-scoreboard objectives add vas.rule.runner.cantrack.hunter trigger
-scoreboard objectives add vas.rule.runner.cantrack.runner trigger
+scoreboard objectives add vas.rule.hunter.canTrack.hunter trigger
+scoreboard objectives add vas.rule.hunter.canTrack.runner trigger
+scoreboard objectives add vas.rule.runner.canTrack.hunter trigger
+scoreboard objectives add vas.rule.runner.canTrack.runner trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
     # use item @a

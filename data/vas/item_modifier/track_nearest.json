@@ -3,7 +3,7 @@
         "function": "set_lore",
         "lore": [
             {
-                "translate": "item.vas.lore.track",
+                "translate": "info.vas.item.lore.track",
                 "extra": [
                     {
                         "selector": "@p[tag=!using_compass, team=hunter]"
@@ -32,7 +32,7 @@
         "function": "set_lore",
         "lore": [
             {
-                "translate": "item.vas.lore.track",
+                "translate": "info.vas.item.lore.track",
                 "extra": [
                     {
                         "selector": "@p[tag=!using_compass, team=runner]"
@@ -61,7 +61,7 @@
         "function": "set_lore",
         "lore": [
             {
-                "translate": "item.vas.lore.track",
+                "translate": "info.vas.item.lore.track",
                 "extra": [
                     {
                         "selector": "@p[tag=!using_compass]"

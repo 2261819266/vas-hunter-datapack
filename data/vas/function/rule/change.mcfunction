@@ -18,10 +18,10 @@ function vas:rule/change_apply { rule: compass.dimension }
 function vas:rule/change_apply { rule: compass.distance }
 function vas:rule/change_apply { rule: compass.xz }
 function vas:rule/change_apply { rule: compass.y }
-function vas:rule/change_apply { rule: hunter.cantrack.hunter }
-function vas:rule/change_apply { rule: hunter.cantrack.runner }
-function vas:rule/change_apply { rule: runner.cantrack.hunter }
-function vas:rule/change_apply { rule: runner.cantrack.runner }
+function vas:rule/change_apply { rule: hunter.canTrack.hunter }
+function vas:rule/change_apply { rule: hunter.canTrack.runner }
+function vas:rule/change_apply { rule: runner.canTrack.hunter }
+function vas:rule/change_apply { rule: runner.canTrack.runner }
 
 execute if score runnerDiedToBe vas.rule matches 0 run \
     data modify storage vas:temp dialog.actions[0].label[1].translate set value dialog.vas.rule.spectator

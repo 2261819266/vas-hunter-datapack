@@ -8,6 +8,6 @@ execute if score @s vas.music.select_again matches 3 run playsound vas:music.ssl
 execute if score @s vas.music.select_again matches 4 run playsound vas:music.secret music @s
 execute if score @s vas.music.select_again matches 5 run playsound vas:music.cipher music @s
 
-scoreboard players set @s vas.musictime 0
+scoreboard players set @s vas.musicTime 0
 
 scoreboard players reset @s vas.music.random

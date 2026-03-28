@@ -49,31 +49,31 @@ execute if score @s vas.rule.compass.y matches 0..1 run \
 scoreboard players set @s vas.rule.compass.y -1
 scoreboard players enable @s vas.rule.compass.y
 
-execute if score @s vas.rule.hunter.cantrack.hunter matches 0..1 run \
-    scoreboard players operation hunter.cantrack.hunter vas.rule = @s vas.rule.hunter.cantrack.hunter
-execute if score @s vas.rule.hunter.cantrack.hunter matches 0..1 run \
+execute if score @s vas.rule.hunter.canTrack.hunter matches 0..1 run \
+    scoreboard players operation hunter.canTrack.hunter vas.rule = @s vas.rule.hunter.canTrack.hunter
+execute if score @s vas.rule.hunter.canTrack.hunter matches 0..1 run \
     function vas:rule/change
-scoreboard players set @s vas.rule.hunter.cantrack.hunter -1
-scoreboard players enable @s vas.rule.hunter.cantrack.hunter
+scoreboard players set @s vas.rule.hunter.canTrack.hunter -1
+scoreboard players enable @s vas.rule.hunter.canTrack.hunter
 
-execute if score @s vas.rule.hunter.cantrack.runner matches 0..1 run \
-    scoreboard players operation hunter.cantrack.runner vas.rule = @s vas.rule.hunter.cantrack.runner
-execute if score @s vas.rule.hunter.cantrack.runner matches 0..1 run \
+execute if score @s vas.rule.hunter.canTrack.runner matches 0..1 run \
+    scoreboard players operation hunter.canTrack.runner vas.rule = @s vas.rule.hunter.canTrack.runner
+execute if score @s vas.rule.hunter.canTrack.runner matches 0..1 run \
     function vas:rule/change
-scoreboard players set @s vas.rule.hunter.cantrack.runner -1
-scoreboard players enable @s vas.rule.hunter.cantrack.runner
+scoreboard players set @s vas.rule.hunter.canTrack.runner -1
+scoreboard players enable @s vas.rule.hunter.canTrack.runner
 
-execute if score @s vas.rule.runner.cantrack.hunter matches 0..1 run \
-    scoreboard players operation runner.cantrack.hunter vas.rule = @s vas.rule.runner.cantrack.hunter
-execute if score @s vas.rule.runner.cantrack.hunter matches 0..1 run \
+execute if score @s vas.rule.runner.canTrack.hunter matches 0..1 run \
+    scoreboard players operation runner.canTrack.hunter vas.rule = @s vas.rule.runner.canTrack.hunter
+execute if score @s vas.rule.runner.canTrack.hunter matches 0..1 run \
     function vas:rule/change
-scoreboard players set @s vas.rule.runner.cantrack.hunter -1
-scoreboard players enable @s vas.rule.runner.cantrack.hunter
+scoreboard players set @s vas.rule.runner.canTrack.hunter -1
+scoreboard players enable @s vas.rule.runner.canTrack.hunter
 
-execute if score @s vas.rule.runner.cantrack.runner matches 0..1 run \
-    scoreboard players operation runner.cantrack.runner vas.rule = @s vas.rule.runner.cantrack.runner
-execute if score @s vas.rule.runner.cantrack.runner matches 0..1 run \
+execute if score @s vas.rule.runner.canTrack.runner matches 0..1 run \
+    scoreboard players operation runner.canTrack.runner vas.rule = @s vas.rule.runner.canTrack.runner
+execute if score @s vas.rule.runner.canTrack.runner matches 0..1 run \
     function vas:rule/change
-scoreboard players set @s vas.rule.runner.cantrack.runner -1
-scoreboard players enable @s vas.rule.runner.cantrack.runner
+scoreboard players set @s vas.rule.runner.canTrack.runner -1
+scoreboard players enable @s vas.rule.runner.canTrack.runner
 

@@ -8,22 +8,13 @@
         "description": {
             "extra": [
                 {
-                    "translate": "advancements.hunter.root.description"
-                },
-                {
-                    "text": "[",
-                    "color": "gray"
-                },
-                {
-                    "keybind": "key.quickActions",
-                    "color": "green"
-                },
-                {
-                    "text": "]",
-                    "color": "gray"
-                },
-                {
-                    "translate": "info.vas.load.1"
+                    "translate": "advancements.hunter.root.description",
+                    "with": [
+                        {
+                            "keybind": "key.quickActions",
+                            "color": "green"
+                        }
+                    ]
                 }
             ],
             "text": ""

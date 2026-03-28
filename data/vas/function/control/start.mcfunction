@@ -15,11 +15,11 @@ gamemode spectator @a[team=!runner, team=!hunter]
 
 scoreboard players set process vas.sys 1
 
-scoreboard objectives remove vas.gametime
-scoreboard objectives add vas.gametime dummy { translate: score.vas.gametime }
+scoreboard objectives remove vas.gameTime
+scoreboard objectives add vas.gameTime dummy { translate: score.vas.gameTime }
 
-scoreboard players set @a[gamemode=!spectator, team=runner] vas.gametime 0
-scoreboard objectives setdisplay sidebar vas.gametime
+scoreboard players set @a[gamemode=!spectator, team=runner] vas.gameTime 0
+scoreboard objectives setdisplay sidebar vas.gameTime
 
 scoreboard players reset * vas.die
 scoreboard players reset * vas.kill 

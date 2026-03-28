@@ -10,7 +10,7 @@ $item modify entity @s weapon.$(hand) vas:tracker
 $data modify storage vas:temp refresh.name set from storage vas:sys players[$(uid)].name
 
 $item modify entity @s weapon.$(hand) \
-    { function: "set_lore", lore: [{ "translate": "item.vas.lore.track", extra: \
+    { function: "set_lore", lore: [{ "translate": "info.vas.item.lore.track", extra: \
     [{ selector: "@p[scores={vas.uid = $(uid)}]"}] }], \
     mode: "replace_section", offset: 1, entity: "this" }
 $data modify storage vas:temp refresh.actionbar set from entity @s $(hand_).components."minecraft:lore"[1]

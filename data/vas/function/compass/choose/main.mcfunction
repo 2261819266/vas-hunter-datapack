@@ -7,7 +7,7 @@ execute if entity @s[team=runner] run data modify storage vas:temp choose.team s
 
 execute summon text_display run function vas:compass/choose/get_name_list with storage vas:temp choose
 
-execute unless data storage vas:temp choose.list run return fail
+execute if score choose.canTrack vas.temp matches ..0 run return fail
 
 data modify storage vas:temp choose.dialog set value { \
     "type": "multi_action", \

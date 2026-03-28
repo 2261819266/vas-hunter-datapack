@@ -14,7 +14,7 @@
                                 "score": "vas.rule",
                                 "target": {
                                     "type": "fixed",
-                                    "name": "hunter.cantrack.hunter"
+                                    "name": "hunter.canTrack.hunter"
                                 }
                             },
                             "range": 1
@@ -26,7 +26,7 @@
                                 "score": "vas.rule",
                                 "target": {
                                     "type": "fixed",
-                                    "name": "hunter.cantrack.runner"
+                                    "name": "hunter.canTrack.runner"
                                 }
                             },
                             "range": 1
@@ -55,7 +55,7 @@
                                 "score": "vas.rule",
                                 "target": {
                                     "type": "fixed",
-                                    "name": "runner.cantrack.runner"
+                                    "name": "runner.canTrack.runner"
                                 }
                             },
                             "range": 1
@@ -67,7 +67,7 @@
                                 "score": "vas.rule",
                                 "target": {
                                     "type": "fixed",
-                                    "name": "runner.cantrack.hunter"
+                                    "name": "runner.canTrack.hunter"
                                 }
                             },
                             "range": 1

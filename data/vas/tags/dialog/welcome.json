@@ -1,15 +1,15 @@
 {
     "values": [
         "vas:select",
-        "vas:start",
-        "vas:stop",
-        "vas:command",
-        "vas:compass",
-        "vas:gamemode",
-        "vas:music",
         "vas:reset",
-        "vas:quit",
+        "vas:start",
         "vas:share",
+        "vas:quit",
+        "vas:stop",
+        "vas:gamemode",
+        "vas:compass",
+        "vas:music",
+        "vas:command",
         "vas:rule"
     ]
 }

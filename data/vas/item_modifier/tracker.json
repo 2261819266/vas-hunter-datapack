@@ -14,7 +14,7 @@
             "translate": "item.vas.tracker",
             "extra": [
                 {
-                    "translate": "info.vas.compass.tip.0"
+                    "translate": "info.vas.item.compass.tip.0"
                 }
             ]
         },
@@ -40,7 +40,7 @@
             "translate": "item.vas.tracker",
             "extra": [
                 {
-                    "translate": "info.vas.compass.tip.1"
+                    "translate": "info.vas.item.compass.tip.1"
                 }
             ]
         },
@@ -111,7 +111,7 @@
         "function": "set_lore",
         "lore": [
             {
-                "translate": "item.vas.lore.owner",
+                "translate": "info.vas.item.lore.owner",
                 "extra": [
                     {
                         "selector": "@s"
@@ -119,9 +119,11 @@
                 ]
             },
             "",
-            "",
             {
-                "translate": "item.vas.lore.change"
+                "translate": "info.vas.item.lore.random"
+            },
+            {
+                "translate": "info.vas.item.lore.choose"
             }
         ],
         "entity": "this",
@@ -137,12 +139,12 @@
         "function": "set_lore",
         "lore": [
             {
-                "translate": "info.vas.compass.lore2"
+                "translate": "info.vas.item.compass.lore2"
             }
         ],
         "entity": "this",
         "mode": "replace_section",
-        "offset": 2,
+        "offset": 4,
         "conditions": [
             {
                 "condition": "any_of",
