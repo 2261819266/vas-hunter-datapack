@@ -1,5 +1,9 @@
 {
     "item.vas.tracker": "\u00a7dTracker",
+    "item.vas.death_supply": "\u00a7dThe gift of death",
+    "item.vas.death_supply.final": "\u00a7dThe ultimate gift of death",
+    "item.vas.death_supply.final.lore": "\u00a7aYou are the most fortune player!",
+    "item.vas.death_supply.final.lore.2": "\u00a7aYou have only one in a thousand chance to get this item.",
     
     "dialog.vas.exit": "Exit",
     "dialog.vas.return": "Return",

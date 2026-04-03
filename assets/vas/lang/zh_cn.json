@@ -1,5 +1,9 @@
 {
     "item.vas.tracker": "\u00a7d追踪器",
+    "item.vas.death_supply": "\u00a7d死亡的馈赠",
+    "item.vas.death_supply.final": "\u00a7d死亡的终极馈赠",
+    "item.vas.death_supply.final.lore": "\u00a7a你是最幸运的玩家!",
+    "item.vas.death_supply.final.lore.2": "\u00a7a你只有千分之一的概率获得此物品。",
 
     "dialog.vas.exit": "退出",
     "dialog.vas.return": "返回",

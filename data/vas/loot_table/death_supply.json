@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_apple",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.vas.death_supply"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.vas.death_supply"
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "efficiency": 1,
+                "sharpness": 1
+              }
+            }
+          ],
+          "weight": 999
+        },
+        {
+          "type": "item",
+          "name": "enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.vas.death_supply.final"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "item.vas.death_supply.final"
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "efficiency": 5,
+                "sharpness": 5
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "translate": "item.vas.death_supply.final.lore"
+                },
+                {
+                  "translate": "item.vas.death_supply.final.lore.2"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
