@@ -3,7 +3,7 @@ scoreboard players set #i vas.temp 0
 
 say start
 
-execute at @s in minecraft:overworld run spreadplayers 0 0 0 16000 false @s
+execute at @s in minecraft:overworld run spreadplayers 0 0 0 1000000 false @s
 
 function vas:search/search
 
