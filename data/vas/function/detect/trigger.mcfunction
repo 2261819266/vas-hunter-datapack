@@ -12,18 +12,7 @@ scoreboard players enable @s vas.join.runner
 execute if score @s vas.join.leave matches 1 run function vas:control/leave
 scoreboard players set @s vas.join.leave 0
 scoreboard players enable @s vas.join.leave
-
-# execute if score @s vas.control.reshow matches 1 run function vas:control/show
-# scoreboard players set @s vas.control.reshow 0
-# scoreboard players enable @s vas.control.reshow
-
-execute if score @s vas.control.showCommand matches 1 run function vas:message/show_command
-execute if score @s vas.control.showCommand matches 0 run function vas:message/hide_command
 scoreboard players enable @s vas.control.showCommand
-
-# execute if score @s vas.control.changeSettings matches 1 run function vas:control/change_settings
-# scoreboard players set @s vas.control.changeSettings 0
-# scoreboard players enable @s vas.control.changeSettings
 
 execute if score @s vas.control.start matches 1 run function vas:control/start
 scoreboard players set @s vas.control.start 0

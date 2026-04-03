@@ -1,6 +1,6 @@
 # function vas:message/tell {path:"/compass/show/show/"}
 
-scoreboard players set @s vas.use.compass 0
+# scoreboard players set @s vas.use.compass 0
 
 data remove storage vas:temp show
 

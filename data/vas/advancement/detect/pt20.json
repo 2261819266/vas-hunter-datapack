@@ -1,15 +1,10 @@
 {
-    "criteria": {
-        "20t": {
-            "trigger": "tick",
-            "conditions": {
-                "player": {
-                    "periodic_tick": 20
-                }
-            }
-        }
-    },
-    "rewards": {
-        "function": "vas:detect/pt20"
+  "criteria": {
+    "20t": {
+      "trigger": "location"
     }
+  },
+  "rewards": {
+    "function": "vas:detect/pt20"
+  }
 }

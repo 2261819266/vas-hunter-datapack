@@ -55,7 +55,7 @@ scoreboard objectives add vas.rule.runner.canTrack.runner trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
     # use item @a
-scoreboard objectives add vas.use.compass used:compass
+# scoreboard objectives add vas.use.compass used:compass
 # scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
 # init
@@ -63,7 +63,7 @@ scoreboard objectives add vas.use.compass used:compass
 execute unless score defaultHasApply vas.rule matches 1 run function vas:rule/apply_default_rule
     # score
         # #sys: system variable
-execute unless score show.command vas.sys matches 0..1 run scoreboard players set show.command vas.sys 0
+# execute unless score show.command vas.sys matches 0..1 run scoreboard players set show.command vas.sys 0
 execute unless score process vas.sys matches 0..1 run scoreboard players set process vas.sys 0 
     # gamerule
 gamerule locator_bar false
@@ -77,3 +77,7 @@ function vas:dimension/default_dimension_register
 
 scoreboard objectives setdisplay below_name vas.kill
 scoreboard objectives setdisplay list vas.die
+
+# schedule init 
+function vas:detect/schedule/change_inventory
+function vas:detect/schedule/pt5

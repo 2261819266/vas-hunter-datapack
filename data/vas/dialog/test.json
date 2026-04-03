@@ -1,28 +1,28 @@
 {
-    "type": "confirmation",
-    "title": "Welcome",
-    "yes": {
-        "action": {
-            "type": "run_command",
-            "command": "/trigger vas.join.hunter"
-        },
-        "label": "Join Hunter"
+  "type": "confirmation",
+  "title": "Welcome",
+  "yes": {
+    "action": {
+      "type": "run_command",
+      "command": "/trigger vas.join.hunter"
     },
-    "no": {
-        "label": "Join Runner",
-        "action": {
-            "type": "run_command",
-            "command": "/trigger vas.join.runner"
-        }
-    },
-    "inputs": [
-        {
-            "type": "number_range",
-            "key": "hh",
-            "label": "ab",
-            "start": 0,
-            "end": 100,
-            "initial": 100
-        }
-    ]
+    "label": "Join Hunter"
+  },
+  "no": {
+    "label": "Join Runner",
+    "action": {
+      "type": "run_command",
+      "command": "/trigger vas.join.runner"
+    }
+  },
+  "inputs": [
+    {
+      "type": "number_range",
+      "key": "hh",
+      "label": "ab",
+      "start": 0,
+      "end": 100,
+      "initial": 100
+    }
+  ]
 }

@@ -33,3 +33,6 @@ execute as @a at @s if score compass.update vas.rule matches 1 \
     if predicate vas:hand/tracker_mainhand run function vas:compass/refresh
 execute as @a at @s if score compass.update vas.rule matches 1 \
     if predicate vas:hand/tracker_offhand run function vas:compass/refresh
+
+# # change_inventory
+# function vas:detect/change_inventory

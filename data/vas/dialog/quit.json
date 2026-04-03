@@ -1,36 +1,36 @@
 {
-    "type": "confirmation",
-    "title": {
-        "translate": "dialog.vas.quit.title",
-        "color": "green"
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.quit.title",
+    "color": "green"
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.quit.yes",
+      "color": "green"
     },
-    "yes": {
-        "label": {
-            "translate": "dialog.vas.quit.yes",
-            "color": "green"
-        },
-        "action": {
-            "type": "run_command",
-            "command": "trigger vas.control.quit"
-        }
+    "action": {
+      "type": "run_command",
+      "command": "trigger vas.control.quit"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no",
+      "color": "red"
     },
-    "no": {
-        "label": {
-            "translate": "dialog.vas.no",
-            "color": "red"
-        },
-        "action": {
-            "type": "show_dialog",
-            "dialog": "vas:welcome"
-        }
-    },
-    "body": [
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "dialog.vas.quit.info"
-            },
-            "width": 500
-        }
-    ]
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcome"
+    }
+  },
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.quit.info"
+      },
+      "width": 500
+    }
+  ]
 }

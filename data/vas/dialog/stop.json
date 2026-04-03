@@ -1,59 +1,59 @@
 {
-    "type": "confirmation",
-    "title": {
-        "translate": "dialog.vas.stop.title",
-        "color": "red"
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.stop.title",
+    "color": "red"
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.stop.yes",
+      "color": "red"
     },
-    "yes": {
-        "label": {
-            "translate": "dialog.vas.stop.yes",
-            "color": "red"
-        },
-        "action": {
-            "type": "dynamic/run_command",
-            "template": "$(comfirm) vas.control.stop"
-        }
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "$(comfirm) vas.control.stop"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no",
+      "color": "white"
     },
-    "no": {
-        "label": {
-            "translate": "dialog.vas.no",
-            "color": "white"
-        },
-        "action": {
-            "type": "show_dialog",
-            "dialog": "vas:welcome"
-        }
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcome"
+    }
+  },
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.stop.info.1"
+      },
+      "width": 500
     },
-    "body": [
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "dialog.vas.stop.info.1"
-            },
-            "width": 500
-        },
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "dialog.vas.stop.info.2"
-            },
-            "width": 500
-        },
-        {
-            "type": "plain_message",
-            "contents": {
-                "translate": "dialog.vas.stop.info.3"
-            },
-            "width": 500
-        }
-    ],
-    "inputs": [
-        {
-            "key": "comfirm",
-            "type": "text",
-            "label": "",
-            "label_visible": false,
-            "max_length": 7
-        }
-    ]
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.stop.info.2"
+      },
+      "width": 500
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.stop.info.3"
+      },
+      "width": 500
+    }
+  ],
+  "inputs": [
+    {
+      "key": "comfirm",
+      "type": "text",
+      "label": "",
+      "label_visible": false,
+      "max_length": 7
+    }
+  ]
 }

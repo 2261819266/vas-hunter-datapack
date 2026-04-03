@@ -1,0 +1,39 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "minecraft:compass",
+            "components": {
+              "minecraft:custom_data": {
+                "need_update": 1,
+                "tracker": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": "minecraft:compass",
+            "components": {
+              "minecraft:custom_data": {
+                "need_update": 1,
+                "tracker": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

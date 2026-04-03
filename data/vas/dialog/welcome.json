@@ -1,17 +1,17 @@
 {
-    "type": "dialog_list",
-    "title": {
-        "translate": "dialog.vas.welcome.title",
-        "color": "light_purple",
-        "italic": true,
-        "bold": true
-    },
-    "dialogs": "#vas:welcome",
-    "exit_action": {
-        "label": {
-            "translate": "dialog.vas.exit"
-        }
-    },
-    "button_width": 310,
-    "columns": 1
+  "type": "dialog_list",
+  "title": {
+    "translate": "dialog.vas.welcome.title",
+    "color": "light_purple",
+    "italic": true,
+    "bold": true
+  },
+  "dialogs": "#vas:welcome",
+  "exit_action": {
+    "label": {
+      "translate": "dialog.vas.exit"
+    }
+  },
+  "button_width": 310,
+  "columns": 1
 }

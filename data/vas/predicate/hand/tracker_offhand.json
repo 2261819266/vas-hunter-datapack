@@ -1,13 +1,13 @@
 {
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "offhand": {
-                "components": {
-                    "item_name": "tracker"
-                }
-            }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:item_name": "tracker"
         }
+      }
     }
+  }
 }

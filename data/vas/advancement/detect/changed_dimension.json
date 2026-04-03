@@ -1,10 +1,10 @@
 {
-    "criteria": {
-        "change": {
-            "trigger": "changed_dimension"
-        }
-    },
-    "rewards": {
-        "function": "vas:detect/changed_dimension"
+  "criteria": {
+    "change": {
+      "trigger": "changed_dimension"
     }
+  },
+  "rewards": {
+    "function": "vas:detect/changed_dimension"
+  }
 }

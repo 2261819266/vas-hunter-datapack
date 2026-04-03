@@ -1,32 +1,32 @@
 {
-    "criteria": {
-        "tick": {
-            "trigger": "tick"
-        }
-    },
-    "display": {
-        "description": {
-            "extra": [
-                {
-                    "translate": "advancements.hunter.root.description",
-                    "with": [
-                        {
-                            "keybind": "key.quickActions",
-                            "color": "green"
-                        }
-                    ]
-                }
-            ],
-            "text": ""
-        },
-        "icon": {
-            "id": "compass"
-        },
-        "title": {
-            "translate": "advancements.hunter.title"
-        },
-        "background": "block/lodestone_side",
-        "announce_to_chat": false,
-        "show_toast": false
+  "criteria": {
+    "tick": {
+      "trigger": "tick"
     }
+  },
+  "display": {
+    "description": {
+      "extra": [
+        {
+          "translate": "advancements.hunter.root.description",
+          "with": [
+            {
+              "keybind": "key.quickActions",
+              "color": "green"
+            }
+          ]
+        }
+      ],
+      "text": ""
+    },
+    "icon": {
+      "id": "compass"
+    },
+    "title": {
+      "translate": "advancements.hunter.title"
+    },
+    "background": "block/lodestone_side",
+    "announce_to_chat": false,
+    "show_toast": false
+  }
 }

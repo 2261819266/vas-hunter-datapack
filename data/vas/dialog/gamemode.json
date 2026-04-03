@@ -1,43 +1,43 @@
 {
-    "type": "multi_action",
-    "title": {
-        "translate": "dialog.vas.gamemode.title"
+  "type": "multi_action",
+  "title": {
+    "translate": "dialog.vas.gamemode.title"
+  },
+  "actions": [
+    {
+      "label": "survival",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.gamemode set 1"
+      }
     },
-    "actions": [
-        {
-            "label": "survival",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.gamemode set 1"
-            }
-        },
-        {
-            "label": "creative",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.gamemode set 2"
-            }
-        },
-        {
-            "label": "spectator",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.gamemode set 3"
-            }
-        },
-        {
-            "label": "adventure",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.gamemode set 4"
-            }
-        }
-    ],
-    "body": {
-        "type": "plain_message",
-        "contents": {
-            "translate": "dialog.vas.gamemode.info.1"
-        },
-        "width": 300
+    {
+      "label": "creative",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.gamemode set 2"
+      }
+    },
+    {
+      "label": "spectator",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.gamemode set 3"
+      }
+    },
+    {
+      "label": "adventure",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.gamemode set 4"
+      }
     }
+  ],
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "dialog.vas.gamemode.info.1"
+    },
+    "width": 300
+  }
 }

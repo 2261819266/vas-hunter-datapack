@@ -1,44 +1,44 @@
 {
-    "type": "multi_action",
-    "title": {
-        "translate": "dialog.vas.select_music.title"
+  "type": "multi_action",
+  "title": {
+    "translate": "dialog.vas.select_music.title"
+  },
+  "actions": [
+    {
+      "label": "Unravel",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.music.select set 1"
+      }
     },
-    "actions": [
-        {
-            "label": "Unravel",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.music.select set 1"
-            }
-        },
-        {
-            "label": "Call of Silence",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.music.select set 2"
-            }
-        },
-        {
-            "label": "声嘶力竭",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.music.select set 3"
-            }
-        },
-        {
-            "label": "Secret Base",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.music.select set 4"
-            }
-        },
-        {
-            "label": "Cipher : /2&//<|0",
-            "action": {
-                "type": "run_command",
-                "command": "trigger vas.music.select set 5"
-            }
-        }
-    ],
-    "columns": 1
+    {
+      "label": "Call of Silence",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.music.select set 2"
+      }
+    },
+    {
+      "label": "声嘶力竭",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.music.select set 3"
+      }
+    },
+    {
+      "label": "Secret Base",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.music.select set 4"
+      }
+    },
+    {
+      "label": "Cipher : /2&//<|0",
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.music.select set 5"
+      }
+    }
+  ],
+  "columns": 1
 }

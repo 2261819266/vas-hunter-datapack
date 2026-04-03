@@ -1,35 +1,19 @@
 {
-    "criteria": {
-        "change_inventory": {
-            "trigger": "inventory_changed"
-        },
-        "pt5": {
-            "trigger": "tick",
-            "conditions": {
-                "player": {
-                    "periodic_tick": 5
-                }
-            }
-        },
-        "pt20": {
-            "trigger": "tick",
-            "conditions": {
-                "player": {
-                    "periodic_tick": 20
-                }
-            }
-        }
+  "criteria": {
+    "change_inventory": {
+      "trigger": "inventory_changed"
     },
-    "requirements": [
-        [
-            "pt20",
-            "change_inventory"
-        ],
-        [
-            "pt5"           
-        ]
-    ],
-    "rewards": {
-        "function": "vas:detect/change_inventory"
+    "1s": {
+      "trigger": "location"
     }
+  },
+  "requirements": [
+    [
+      "1s",
+      "change_inventory"
+    ]
+  ],
+  "rewards": {
+    "function": "vas:detect/change_inventory"
+  }
 }

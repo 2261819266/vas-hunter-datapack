@@ -1,69 +1,69 @@
 [
-    {
-        "condition": "entity_properties",
-        "entity": "this",
-        "predicate": {
-            "type_specific": {
-                "type": "player",
-                "gamemode": [
-                    "adventure",
-                    "creative",
-                    "survival"
-                ]
-            }
-        }
-    },
-    {
-        "condition": "any_of",
-        "terms": [
-            {
-                "condition": "all_of",
-                "terms": [
-                    {
-                        "condition": "value_check",
-                        "value": {
-                            "type": "score",
-                            "score": "vas.rule",
-                            "target": {
-                                "type": "fixed",
-                                "name": "runner.canTrack.runner"
-                            }
-                        },
-                        "range": 1
-                    },
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "team": "runner"
-                        }
-                    }
-                ]
-            },
-            {
-                "condition": "all_of",
-                "terms": [
-                    {
-                        "condition": "value_check",
-                        "value": {
-                            "type": "score",
-                            "score": "vas.rule",
-                            "target": {
-                                "type": "fixed",
-                                "name": "runner.canTrack.hunter"
-                            }
-                        },
-                        "range": 1
-                    },
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "team": "hunter"
-                        }
-                    }
-                ]
-            }
+  {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "player",
+        "gamemode": [
+          "adventure",
+          "creative",
+          "survival"
         ]
+      }
     }
+  },
+  {
+    "condition": "any_of",
+    "terms": [
+      {
+        "condition": "all_of",
+        "terms": [
+          {
+            "condition": "value_check",
+            "value": {
+              "type": "score",
+              "score": "vas.rule",
+              "target": {
+                "type": "fixed",
+                "name": "runner.canTrack.runner"
+              }
+            },
+            "range": 1
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "runner"
+            }
+          }
+        ]
+      },
+      {
+        "condition": "all_of",
+        "terms": [
+          {
+            "condition": "value_check",
+            "value": {
+              "type": "score",
+              "score": "vas.rule",
+              "target": {
+                "type": "fixed",
+                "name": "runner.canTrack.hunter"
+              }
+            },
+            "range": 1
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "hunter"
+            }
+          }
+        ]
+      }
+    ]
+  }
 ]
