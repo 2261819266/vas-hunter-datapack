@@ -18,5 +18,7 @@ scoreboard players set hunter.canTrack.runner vas.rule 1
 scoreboard players set runner.canTrack.hunter vas.rule 1
 scoreboard players set runner.canTrack.runner vas.rule 0
 
+scoreboard players set supply.count vas.rule 5
+
 
 scoreboard players set defaultHasApply vas.rule 1

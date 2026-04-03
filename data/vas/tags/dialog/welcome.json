@@ -10,6 +10,7 @@
     "vas:compass",
     "vas:music",
     "vas:command",
-    "vas:rule"
+    "vas:rule",
+    "vas:set_supply"
   ]
 }

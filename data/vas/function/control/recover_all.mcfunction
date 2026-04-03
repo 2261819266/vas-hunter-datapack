@@ -31,7 +31,7 @@ item replace entity @a enderchest.23 with air
 item replace entity @a enderchest.24 with air
 item replace entity @a enderchest.25 with air
 item replace entity @a enderchest.26 with air
-execute in minecraft:the_nether run spawnpoint @a 0 0 0
+# execute in minecraft:the_nether run spawnpoint @a 0 0 0
 effect clear @a
 
 effect give @a hunger 3 143 true

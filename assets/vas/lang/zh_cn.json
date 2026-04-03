@@ -64,6 +64,10 @@
     "dialog.vas.changeRule.yes": "更改",
     "dialog.vas.changeRule.info": "",
     "dialog.vas.choose.title": "选择要追踪的玩家",
+    "dialog.vas.supply.title": "\u00a7d更改猎人死后供应",
+    "dialog.vas.supply.yes": "确认",
+    "dialog.vas.supply.info": "设置猎人被逃生者杀死重生后将获得的金苹果数量",
+    "dialog.vas.supply.label.count": "数量",
 
     "info.vas.item.lore.owner": "\u00a7d所有者 : ",
     "info.vas.item.lore.track": "\u00a7d追踪 : ",

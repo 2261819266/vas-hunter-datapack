@@ -64,6 +64,10 @@
     "dialog.vas.changeRule.yes": "Change",
     "dialog.vas.changeRule.info": "",
     "dialog.vas.choose.title": "Choose Player to Track",
+    "dialog.vas.supply.title": "\u00a7dChange Hunter's Supply After Death",
+    "dialog.vas.supply.yes": "Confirm",
+    "dialog.vas.supply.info": "Set the number of golden apples that the hunter will get after being revived",
+    "dialog.vas.supply.label.count": "Count",
 
     "info.vas.item.lore.owner": "\u00a7dOwner : ",
     "info.vas.item.lore.track": "\u00a7dTracking : ",

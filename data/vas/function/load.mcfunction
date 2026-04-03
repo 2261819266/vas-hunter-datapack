@@ -18,6 +18,8 @@ scoreboard objectives add vas.have_structure dummy
 scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
 scoreboard objectives add vas.hasItem dummy
+scoreboard objectives add vas.health health
+scoreboard objectives add vas.supply dummy
         # rule 
 scoreboard objectives add vas.rule dummy
     # trigger @a
@@ -52,6 +54,7 @@ scoreboard objectives add vas.rule.hunter.canTrack.hunter trigger
 scoreboard objectives add vas.rule.hunter.canTrack.runner trigger
 scoreboard objectives add vas.rule.runner.canTrack.hunter trigger
 scoreboard objectives add vas.rule.runner.canTrack.runner trigger
+scoreboard objectives add vas.rule.supply.count trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
     # use item @a

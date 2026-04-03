@@ -1,7 +1,7 @@
 {
   "criteria": {
     "change_inventory": {
-      "trigger": "inventory_changed"
+      "trigger": "minecraft:inventory_changed"
     },
     "1s": {
       "trigger": "location"

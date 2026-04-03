@@ -1,0 +1,40 @@
+{
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.supply.title"
+  },
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "dialog.vas.supply.info"
+    },
+    "width": 300
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.supply.yes"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "trigger vas.rule.supply.count set $(count)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no"
+    }
+  },
+  "inputs": [
+    {
+      "key": "count",
+      "type": "number_range",
+      "start": 0,
+      "end": 16,
+      "initial": 5,
+      "label": {
+        "translate": "dialog.vas.supply.label.count"
+      },
+      "step": 1
+    }
+  ]
+}
