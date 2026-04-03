@@ -21,6 +21,8 @@ scoreboard players set runner.canTrack.runner vas.rule 0
 scoreboard players set supply.count vas.rule 5
 scoreboard players set glow_cooldown vas.rule 5
 scoreboard players set glow_time vas.rule 15
+scoreboard players set freeze vas.rule 0
+scoreboard players set supply_time vas.rule 0
 data modify storage vas:sys rule.glow_time set value 15
 
 

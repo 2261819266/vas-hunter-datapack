@@ -22,6 +22,7 @@ scoreboard objectives remove vas.gameTime
 scoreboard objectives add vas.gameTime dummy { translate: score.vas.gameTime }
 
 scoreboard players set @a[gamemode=!spectator, team=runner] vas.gameTime 0
+scoreboard players set time vas.sys 0
 scoreboard objectives setdisplay sidebar vas.gameTime
 
 scoreboard players reset * vas.die
@@ -31,8 +32,10 @@ scoreboard players operation glow_cooldown vas.sys = glow_cooldown vas.rule
 function vas:detect/schedule/pm_for_glow
 
 # bossbar
+execute if score freeze vas.rule matches ..0 run return 0
 bossbar set vas:freeze visible true
 bossbar set vas:freeze players @a
 scoreboard players operation freezing_time vas.sys = freeze vas.rule
 execute as @a[team=hunter] run function vas:player/freeze
 schedule function vas:detect/schedule/freeze 1s replace
+execute as @a[team=hunter] at @s run playsound block.stone.place record @s ~ ~ ~ 0.9 0.8 0.9

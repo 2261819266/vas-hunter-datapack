@@ -1,0 +1,44 @@
+{
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.supply_time.title"
+  },
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "dialog.vas.supply_time.info"
+    },
+    "width": 500
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.supply_time.yes"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "trigger vas.rule.supply_time set $(time)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcomes/rules"
+    }
+  },
+  "inputs": [
+    {
+      "key": "time",
+      "type": "number_range",
+      "start": 0,
+      "end": 30,
+      "initial": 0,
+      "label": {
+        "translate": "dialog.vas.supply_time.label.time"
+      },
+      "step": 1
+    }
+  ]
+}

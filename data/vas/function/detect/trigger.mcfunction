@@ -101,3 +101,7 @@ execute if score @s vas.rule.freeze matches 0.. run \
 scoreboard players set @s vas.rule.freeze -1
 scoreboard players enable @s vas.rule.freeze
 
+execute if score @s vas.rule.supply_time matches 0.. run \
+    function vas:rule/specific/set_supply_time
+scoreboard players set @s vas.rule.supply_time -1
+scoreboard players enable @s vas.rule.supply_time

@@ -4,6 +4,7 @@
     "vas:rules/glow_cooldown",
     "vas:rules/glow_time",
     "vas:rules/freeze",
+    "vas:rules/supply_time",
     "vas:rules/rule"
   ]
 }

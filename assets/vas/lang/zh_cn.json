@@ -88,6 +88,10 @@
     "dialog.vas.freeze.yes": "确认",
     "dialog.vas.freeze.info": "设置开局猎人冻结时间",
     "dialog.vas.freeze.label.time": "时间 (s)",
+    "dialog.vas.supply_time.title": "\u00a7d更改猎人死亡后供给时间",
+    "dialog.vas.supply_time.yes": "确认",
+    "dialog.vas.supply_time.info": "设置猎人开局多久后重生可获得供给 (金苹果) (设为零即相当于随时可以)",
+    "dialog.vas.supply_time.label.time": "时间 (min)",
     
 
     "info.vas.item.lore.owner": "\u00a7d所有者 : ",

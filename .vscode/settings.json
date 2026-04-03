@@ -12,6 +12,7 @@
     "overworld",
     "playsound",
     "setdisplay",
+    "setworldspawn",
     "spawnpoint",
     "spreadplayers",
     "stopsound",

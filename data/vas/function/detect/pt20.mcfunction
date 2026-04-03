@@ -2,7 +2,7 @@
 
 function vas:detect/trigger
 
-advancement revoke @s only vas:detect/pt20
+# advancement revoke @s only vas:detect/pt20
 
 function vas:player/store_pos
 
