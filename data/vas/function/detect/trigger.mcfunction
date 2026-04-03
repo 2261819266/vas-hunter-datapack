@@ -105,3 +105,8 @@ execute if score @s vas.rule.supply_time matches 0.. run \
     function vas:rule/specific/set_supply_time
 scoreboard players set @s vas.rule.supply_time -1
 scoreboard players enable @s vas.rule.supply_time
+
+execute if score @s vas.control.end_tp matches 1 run \
+    function vas:control/end_tp
+scoreboard players set @s vas.control.end_tp 0
+scoreboard players enable @s vas.control.end_tp

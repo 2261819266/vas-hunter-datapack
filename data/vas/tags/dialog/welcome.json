@@ -5,6 +5,7 @@
     "vas:welcomes/start",
     "vas:welcomes/glow",
     "vas:welcomes/share",
+    "vas:welcomes/end_tp",
     "vas:welcomes/quit",
     "vas:welcomes/stop",
     "vas:welcomes/gamemode",
