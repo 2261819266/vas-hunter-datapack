@@ -32,6 +32,7 @@ scoreboard objectives add vas.control.start trigger {translate: score.vas.start}
 scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
 scoreboard objectives add vas.control.reset trigger {translate: score.vas.reset}
 scoreboard objectives add vas.control.quit trigger {translate: score.vas.quit}
+scoreboard objectives add vas.control.glow trigger {translate: score.vas.glow}
 scoreboard objectives add vas.share trigger {translate: score.vas.share}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}
@@ -55,6 +56,8 @@ scoreboard objectives add vas.rule.hunter.canTrack.runner trigger
 scoreboard objectives add vas.rule.runner.canTrack.hunter trigger
 scoreboard objectives add vas.rule.runner.canTrack.runner trigger
 scoreboard objectives add vas.rule.supply.count trigger
+scoreboard objectives add vas.rule.glow_time trigger
+scoreboard objectives add vas.rule.glow_cooldown trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
     # use item @a

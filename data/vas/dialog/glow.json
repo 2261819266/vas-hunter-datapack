@@ -1,0 +1,36 @@
+{
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.glow.title",
+    "color": "green"
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.glow.yes",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger vas.control.glow"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no",
+      "color": "red"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcome"
+    }
+  },
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.glow.info"
+      },
+      "width": 500
+    }
+  ]
+}

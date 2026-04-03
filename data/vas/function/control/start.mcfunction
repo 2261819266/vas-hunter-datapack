@@ -26,3 +26,6 @@ scoreboard objectives setdisplay sidebar vas.gameTime
 
 scoreboard players reset * vas.die
 scoreboard players reset * vas.kill 
+
+scoreboard players operation glow_cooldown vas.sys = glow_cooldown vas.rule
+function vas:detect/schedule/pm_for_glow

@@ -1,0 +1,40 @@
+{
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.glow_time.title"
+  },
+  "body": {
+    "type": "plain_message",
+    "contents": {
+      "translate": "dialog.vas.glow_time.info"
+    },
+    "width": 300
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.glow_time.yes"
+    },
+    "action": {
+      "type": "dynamic/run_command",
+      "template": "trigger vas.rule.glow_time set $(time)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no"
+    }
+  },
+  "inputs": [
+    {
+      "key": "time",
+      "type": "number_range",
+      "start": 0,
+      "end": 60,
+      "initial": 15,
+      "label": {
+        "translate": "dialog.vas.glow_time.label.time"
+      },
+      "step": 5
+    }
+  ]
+}

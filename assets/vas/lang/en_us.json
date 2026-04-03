@@ -64,7 +64,7 @@
     "dialog.vas.rule.spectator": "Spectator",
     "dialog.vas.rule.hunter": "\u00a7cHunter",
     "dialog.vas.rule.revive": "\u00a7aRunner(Reviving)",
-    "dialog.vas.changeRule.title": "\u00a7dChange Rule",
+    "dialog.vas.changeRule.title": "\u00a7dChange Else Rule",
     "dialog.vas.changeRule.yes": "Change",
     "dialog.vas.changeRule.info": "",
     "dialog.vas.choose.title": "Choose Player to Track",
@@ -72,6 +72,7 @@
     "dialog.vas.supply.yes": "Confirm",
     "dialog.vas.supply.info": "Set the number of golden apples that the hunter will get after being revived",
     "dialog.vas.supply.label.count": "Count",
+    "dialog.vas.rules.title": "\u00a7dChange Rules",
 
     "info.vas.item.lore.owner": "\u00a7dOwner : ",
     "info.vas.item.lore.track": "\u00a7dTracking : ",

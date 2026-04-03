@@ -3,6 +3,7 @@
     "vas:select",
     "vas:reset",
     "vas:start",
+    "vas:glow",
     "vas:share",
     "vas:quit",
     "vas:stop",
@@ -10,7 +11,6 @@
     "vas:compass",
     "vas:music",
     "vas:command",
-    "vas:rule",
-    "vas:set_supply"
+    "vas:rules"
   ]
 }

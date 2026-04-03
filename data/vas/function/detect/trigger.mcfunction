@@ -81,3 +81,17 @@ scoreboard players enable @s vas.compass.choose
 execute if score @s vas.rule.supply.count matches 0.. run function vas:control/set_supply
 scoreboard players set @s vas.rule.supply.count -1
 scoreboard players enable @s vas.rule.supply.count
+
+execute if score @s vas.rule.glow_time matches 0.. run \
+    function vas:rule/specific/set_glow_time
+scoreboard players set @s vas.rule.glow_time -1
+scoreboard players enable @s vas.rule.glow_time
+
+execute if score @s vas.rule.glow_cooldown matches 0.. run \
+    function vas:rule/specific/set_glow_cooldown
+scoreboard players set @s vas.rule.glow_cooldown -1
+scoreboard players enable @s vas.rule.glow_cooldown
+
+execute if score @s vas.control.glow matches 1 run function vas:control/glow with storage vas:sys rule
+scoreboard players set @s vas.control.glow 0
+scoreboard players enable @s vas.control.glow
