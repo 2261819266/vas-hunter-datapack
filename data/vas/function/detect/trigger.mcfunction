@@ -95,3 +95,9 @@ scoreboard players enable @s vas.rule.glow_cooldown
 execute if score @s vas.control.glow matches 1 run function vas:control/glow with storage vas:sys rule
 scoreboard players set @s vas.control.glow 0
 scoreboard players enable @s vas.control.glow
+
+execute if score @s vas.rule.freeze matches 0.. run \
+    function vas:rule/specific/set_freeze
+scoreboard players set @s vas.rule.freeze -1
+scoreboard players enable @s vas.rule.freeze
+

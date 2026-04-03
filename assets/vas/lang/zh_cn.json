@@ -84,6 +84,10 @@
     "dialog.vas.glow.title": "\u00a7a发光",
     "dialog.vas.glow.yes": "是",
     "dialog.vas.glow.info": "让逃生者发光",
+    "dialog.vas.freeze.title": "\u00a7d设置冻结时间",
+    "dialog.vas.freeze.yes": "确认",
+    "dialog.vas.freeze.info": "设置开局猎人冻结时间",
+    "dialog.vas.freeze.label.time": "时间 (s)",
     
 
     "info.vas.item.lore.owner": "\u00a7d所有者 : ",
@@ -123,6 +127,12 @@
 
     "advancements.hunter.title": "猎人数据包",
     "advancements.hunter.root.description": "欢迎来到猎人游戏数据包!\n\u00a7d按下 \u00a77[%s\u00a77]",
+    "advancements.hunter.final_supply.description": "你是最幸运的玩家! 你只有千分之一的概率获得此物品。",
+    "advancements.hunter.final_supply.title": "死亡的终极馈赠",
+    "advancements.hunter.eat_final_supply.description": "吃掉死亡的终极馈赠!",
+    "advancements.hunter.eat_final_supply.title": "君临天下",
+
+    "bossbar.vas.freeze.title": "猎人冻结时间",
 
     "info.vas.item.compass.tip.0": "\u00a7a(手持指南针右键点击以更新!)",
     "info.vas.item.compass.tip.1": "\u00a7a(手持指南针时自动更新)",

@@ -58,6 +58,7 @@ scoreboard objectives add vas.rule.runner.canTrack.runner trigger
 scoreboard objectives add vas.rule.supply.count trigger
 scoreboard objectives add vas.rule.glow_time trigger
 scoreboard objectives add vas.rule.glow_cooldown trigger
+scoreboard objectives add vas.rule.freeze trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
     # use item @a
@@ -87,3 +88,6 @@ scoreboard objectives setdisplay list vas.die
 # schedule init 
 function vas:detect/schedule/change_inventory
 function vas:detect/schedule/pt5
+
+# bossbar
+bossbar add vas:freeze { translate: "bossbar.vas.freeze.title", color: "red" }

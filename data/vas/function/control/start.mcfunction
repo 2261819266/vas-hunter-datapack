@@ -29,3 +29,10 @@ scoreboard players reset * vas.kill
 
 scoreboard players operation glow_cooldown vas.sys = glow_cooldown vas.rule
 function vas:detect/schedule/pm_for_glow
+
+# bossbar
+bossbar set vas:freeze visible true
+bossbar set vas:freeze players @a
+scoreboard players operation freezing_time vas.sys = freeze vas.rule
+execute as @a[team=hunter] run function vas:player/freeze
+schedule function vas:detect/schedule/freeze 1s replace

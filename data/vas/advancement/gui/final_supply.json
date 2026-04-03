@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "get": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_golden_apple",
+            "components": {
+              "minecraft:item_name": "Final Death Supply"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "enchanted_golden_apple"
+    },
+    "description": {
+      "translate": "advancements.hunter.final_supply.description"
+    },
+    "title": {
+      "translate": "advancements.hunter.final_supply.title"
+    },
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "vas:gui/root"
+}

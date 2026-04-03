@@ -22,6 +22,10 @@
   "no": {
     "label": {
       "translate": "dialog.vas.no"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcomes/rules"
     }
   },
   "inputs": [

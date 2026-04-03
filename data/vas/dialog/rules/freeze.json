@@ -1,22 +1,22 @@
 {
   "type": "confirmation",
   "title": {
-    "translate": "dialog.vas.supply.title"
+    "translate": "dialog.vas.freeze.title"
   },
   "body": {
     "type": "plain_message",
     "contents": {
-      "translate": "dialog.vas.supply.info"
+      "translate": "dialog.vas.freeze.info"
     },
     "width": 300
   },
   "yes": {
     "label": {
-      "translate": "dialog.vas.supply.yes"
+      "translate": "dialog.vas.freeze.yes"
     },
     "action": {
       "type": "dynamic/run_command",
-      "template": "trigger vas.rule.supply.count set $(count)"
+      "template": "trigger vas.rule.freeze set $(time)"
     }
   },
   "no": {
@@ -30,15 +30,15 @@
   },
   "inputs": [
     {
-      "key": "count",
+      "key": "time",
       "type": "number_range",
       "start": 0,
-      "end": 16,
-      "initial": 5,
+      "end": 180,
+      "initial": 0,
       "label": {
-        "translate": "dialog.vas.supply.label.count"
+        "translate": "dialog.vas.freeze.label.time"
       },
-      "step": 1
+      "step": 5
     }
   ]
 }

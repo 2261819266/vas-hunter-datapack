@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "eat": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple",
+          "components": {
+            "minecraft:item_name": "Final Death Supply"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "enchanted_golden_apple"
+    },
+    "description": {
+      "translate": "advancements.hunter.eat_final_supply.description"
+    },
+    "title": {
+      "translate": "advancements.hunter.eat_final_supply.title"
+    },
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "vas:gui/final_supply"
+}
