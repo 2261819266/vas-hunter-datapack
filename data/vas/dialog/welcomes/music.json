@@ -28,7 +28,7 @@
       },
       "action": {
         "type": "show_dialog",
-        "dialog": "vas:select_music"
+        "dialog": "vas:welcomes/select_music"
       }
     }
   ],

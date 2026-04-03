@@ -11,7 +11,7 @@
     },
     "action": {
       "type": "dynamic/run_command",
-      "template": "$(comfirm) vas.control.stop"
+      "template": "$(confirm) vas.control.stop"
     }
   },
   "no": {
@@ -21,7 +21,7 @@
     },
     "action": {
       "type": "show_dialog",
-      "dialog": "vas:welcome"
+      "dialog": "vas:welcomes/welcome"
     }
   },
   "body": [
@@ -49,7 +49,7 @@
   ],
   "inputs": [
     {
-      "key": "comfirm",
+      "key": "confirm",
       "type": "text",
       "label": "",
       "label_visible": false,

@@ -32,7 +32,7 @@
     },
     "action": {
       "type": "show_dialog",
-      "dialog": "vas:welcome"
+      "dialog": "vas:welcomes/welcome"
     }
   }
 }

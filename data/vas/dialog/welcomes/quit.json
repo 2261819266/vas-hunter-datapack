@@ -1,17 +1,17 @@
 {
   "type": "confirmation",
   "title": {
-    "translate": "dialog.vas.reset.title",
+    "translate": "dialog.vas.quit.title",
     "color": "green"
   },
   "yes": {
     "label": {
-      "translate": "dialog.vas.reset.yes",
+      "translate": "dialog.vas.quit.yes",
       "color": "green"
     },
     "action": {
       "type": "run_command",
-      "command": "trigger vas.control.reset"
+      "command": "trigger vas.control.quit"
     }
   },
   "no": {
@@ -21,14 +21,14 @@
     },
     "action": {
       "type": "show_dialog",
-      "dialog": "vas:welcome"
+      "dialog": "vas:welcomes/welcome"
     }
   },
   "body": [
     {
       "type": "plain_message",
       "contents": {
-        "translate": "dialog.vas.reset.info"
+        "translate": "dialog.vas.quit.info"
       },
       "width": 500
     }

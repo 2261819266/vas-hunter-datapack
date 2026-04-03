@@ -1,17 +1,17 @@
 {
   "type": "confirmation",
   "title": {
-    "translate": "dialog.vas.glow.title",
+    "translate": "dialog.vas.share.title",
     "color": "green"
   },
   "yes": {
     "label": {
-      "translate": "dialog.vas.glow.yes",
+      "translate": "dialog.vas.share.yes",
       "color": "green"
     },
     "action": {
       "type": "run_command",
-      "command": "trigger vas.control.glow"
+      "command": "trigger vas.share"
     }
   },
   "no": {
@@ -21,14 +21,14 @@
     },
     "action": {
       "type": "show_dialog",
-      "dialog": "vas:welcome"
+      "dialog": "vas:welcomes/welcome"
     }
   },
   "body": [
     {
       "type": "plain_message",
       "contents": {
-        "translate": "dialog.vas.glow.info"
+        "translate": "dialog.vas.share.info"
       },
       "width": 500
     }

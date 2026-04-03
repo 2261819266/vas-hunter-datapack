@@ -78,7 +78,7 @@ execute if score @s vas.compass.choose matches 1 run function vas:compass/choose
 scoreboard players set @s vas.compass.choose 0
 scoreboard players enable @s vas.compass.choose
 
-execute if score @s vas.rule.supply.count matches 0.. run function vas:control/set_supply
+execute if score @s vas.rule.supply.count matches 0.. run function vas:rule/specific/set_supply
 scoreboard players set @s vas.rule.supply.count -1
 scoreboard players enable @s vas.rule.supply.count
 

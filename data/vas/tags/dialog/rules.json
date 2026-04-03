@@ -1,8 +1,8 @@
 {
   "values": [
-    "vas:set_supply",
-    "vas:glow_cooldown",
-    "vas:glow_time",
-    "vas:rule"
+    "vas:rules/set_supply",
+    "vas:rules/glow_cooldown",
+    "vas:rules/glow_time",
+    "vas:rules/rule"
   ]
 }
