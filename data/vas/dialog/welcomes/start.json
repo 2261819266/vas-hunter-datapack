@@ -1,0 +1,57 @@
+{
+  "type": "confirmation",
+  "title": {
+    "translate": "dialog.vas.start.title",
+    "color": "green"
+  },
+  "yes": {
+    "label": {
+      "translate": "dialog.vas.start.yes",
+      "color": "green"
+    },
+    "action": {
+      "type": "run_command",
+      "command": "trigger vas.control.start"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "dialog.vas.no",
+      "color": "red"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcomes/welcome"
+    }
+  },
+  "body": [
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.start.info.1"
+      },
+      "width": 500
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.start.info.2"
+      },
+      "width": 500
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.start.info.3"
+      },
+      "width": 500
+    },
+    {
+      "type": "plain_message",
+      "contents": {
+        "translate": "dialog.vas.start.info.4"
+      },
+      "width": 500
+    }
+  ]
+}

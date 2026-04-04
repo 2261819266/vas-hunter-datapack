@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "change": {
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "rewards": {
+    "function": "vas:detect/changed_dimension"
+  }
+}

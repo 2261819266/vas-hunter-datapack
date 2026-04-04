@@ -1,0 +1,86 @@
+[
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "info.vas.item.lore.track",
+        "extra": [
+          {
+            "selector": "@p[tag=!using_compass, team=hunter]"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 1,
+    "entity": "this",
+    "conditions": [
+      {
+        "condition": "reference",
+        "name": "vas:player/can_track_hunter"
+      },
+      {
+        "condition": "inverted",
+        "term": {
+          "condition": "reference",
+          "name": "vas:player/can_track_runner"
+        }
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "info.vas.item.lore.track",
+        "extra": [
+          {
+            "selector": "@p[tag=!using_compass, team=runner]"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 1,
+    "entity": "this",
+    "conditions": [
+      {
+        "condition": "reference",
+        "name": "vas:player/can_track_runner"
+      },
+      {
+        "condition": "inverted",
+        "term": {
+          "condition": "reference",
+          "name": "vas:player/can_track_hunter"
+        }
+      }
+    ]
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "info.vas.item.lore.track",
+        "extra": [
+          {
+            "selector": "@p[tag=!using_compass]"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 1,
+    "entity": "this",
+    "conditions": [
+      {
+        "condition": "reference",
+        "name": "vas:player/can_track_hunter"
+      },
+      {
+        "condition": "reference",
+        "name": "vas:player/can_track_runner"
+      }
+    ]
+  }
+]

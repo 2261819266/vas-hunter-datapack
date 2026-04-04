@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "killed": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "player",
+          "team": "runner"
+        },
+        "player": {
+          "team": "hunter"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "vas:detect/hunter_killed_by_runner"
+  }
+}

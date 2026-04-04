@@ -1,0 +1,15 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "item",
+    "nbt": {
+      "Item": {
+        "id": "minecraft:compass",
+        "components": {
+          "minecraft:item_name": "tracker"
+        }
+      }
+    }
+  }
+}

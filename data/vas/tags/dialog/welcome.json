@@ -1,0 +1,17 @@
+{
+  "values": [
+    "vas:welcomes/select",
+    "vas:welcomes/reset",
+    "vas:welcomes/start",
+    "vas:welcomes/glow",
+    "vas:welcomes/share",
+    "vas:welcomes/end_tp",
+    "vas:welcomes/quit",
+    "vas:welcomes/stop",
+    "vas:welcomes/gamemode",
+    "vas:welcomes/compass",
+    "vas:welcomes/music",
+    "vas:welcomes/command",
+    "vas:welcomes/rules"
+  ]
+}

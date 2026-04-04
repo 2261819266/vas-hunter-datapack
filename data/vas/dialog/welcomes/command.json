@@ -1,0 +1,38 @@
+{
+  "type": "multi_action",
+  "title": {
+    "translate": "dialog.vas.command.title",
+    "color": "light_purple"
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "dialog.vas.command.show",
+        "color": "green"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.control.showCommand set 1"
+      }
+    },
+    {
+      "label": {
+        "translate": "dialog.vas.command.hide",
+        "color": "red"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "trigger vas.control.showCommand set 0"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "dialog.vas.return"
+    },
+    "action": {
+      "type": "show_dialog",
+      "dialog": "vas:welcomes/welcome"
+    }
+  }
+}

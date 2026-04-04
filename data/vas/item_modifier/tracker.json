@@ -1,0 +1,188 @@
+[
+  {
+    "function": "set_item",
+    "item": "compass"
+  },
+  {
+    "function": "set_name",
+    "name": "tracker",
+    "target": "item_name"
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "translate": "item.vas.tracker",
+      "extra": [
+        {
+          "translate": "info.vas.item.compass.tip.0"
+        }
+      ]
+    },
+    "target": "custom_name",
+    "conditions": [
+      {
+        "condition": "value_check",
+        "value": {
+          "type": "score",
+          "score": "vas.rule",
+          "target": {
+            "type": "fixed",
+            "name": "compass.update"
+          }
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "translate": "item.vas.tracker",
+      "extra": [
+        {
+          "translate": "info.vas.item.compass.tip.1"
+        }
+      ]
+    },
+    "target": "custom_name",
+    "conditions": [
+      {
+        "condition": "value_check",
+        "value": {
+          "type": "score",
+          "score": "vas.rule",
+          "target": {
+            "type": "fixed",
+            "name": "compass.update"
+          }
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "consumable": {
+        "consume_seconds": 0,
+        "animation": "none",
+        "sound": "item.lodestone_compass.lock",
+        "has_consume_particles": false
+      },
+      "use_cooldown": {
+        "seconds": 3
+      },
+      "use_remainder": {
+        "id": "compass",
+        "components": {
+          "item_name": "tracker",
+          "custom_name": {
+            "translate": "item.vas.tracker"
+          },
+          "custom_data": {
+            "tracker": 1,
+            "need_update": 1
+          }
+        }
+      }
+    },
+    "conditions": [
+      {
+        "condition": "value_check",
+        "value": {
+          "type": "score",
+          "score": "vas.rule",
+          "target": {
+            "type": "fixed",
+            "name": "compass.update"
+          }
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "tracking": 1,
+      "tracker": 1,
+      "need_update": 0
+    }
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "info.vas.item.lore.owner",
+        "extra": [
+          {
+            "selector": "@s"
+          }
+        ]
+      },
+      "",
+      {
+        "translate": "info.vas.item.lore.random"
+      },
+      {
+        "translate": "info.vas.item.lore.choose"
+      }
+    ],
+    "entity": "this",
+    "mode": "replace_all"
+  },
+  {
+    "function": "set_enchantments",
+    "enchantments": {
+      "vanishing_curse": 1
+    }
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "info.vas.item.compass.lore2"
+      }
+    ],
+    "entity": "this",
+    "mode": "replace_section",
+    "offset": 4,
+    "conditions": [
+      {
+        "condition": "any_of",
+        "terms": [
+          {
+            "condition": "value_check",
+            "value": {
+              "type": "score",
+              "score": "vas.rule",
+              "target": {
+                "type": "fixed",
+                "name": "compass.xz"
+              }
+            },
+            "range": 1
+          },
+          {
+            "condition": "value_check",
+            "value": {
+              "type": "score",
+              "score": "vas.rule",
+              "target": {
+                "type": "fixed",
+                "name": "compass.y"
+              }
+            },
+            "range": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "max_stack_size": 1
+    }
+  }
+]

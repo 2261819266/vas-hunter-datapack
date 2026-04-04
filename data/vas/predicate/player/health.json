@@ -1,0 +1,12 @@
+{
+  "condition": "inverted",
+  "term": {
+    "condition": "value_check",
+    "value": {
+      "type": "score",
+      "score": "vas.health",
+      "target": "this"
+    },
+    "range": 0
+  }
+}
