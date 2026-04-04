@@ -1,0 +1,1 @@
+return run clear @s ender_pearl 0

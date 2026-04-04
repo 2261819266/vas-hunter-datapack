@@ -128,13 +128,14 @@
     "title.vas.start": "\u00a7d猎人游戏已经开始!",
     "title.vas.fail": "\u00a7c猎人获胜!",
     "title.vas.win": "\u00a7a逃生者获胜",
+    "actionbar.vas.has_ender_pearl": "注意！你身上有末影珍珠，使用弓或弩有可能填充末影珍珠，如果你想要射箭请将末影珍珠放置在物品栏中箭的后面",
 
     "team.vas.hunter": "\u00a7c猎人",
     "team.vas.runner": "\u00a7a逃生者",
 
     "advancements.hunter.title": "猎人数据包",
     "advancements.hunter.root.description": "欢迎来到猎人游戏数据包!\n\u00a7d按下 \u00a77[%s\u00a77]",
-    "advancements.hunter.final_supply.description": "你是最幸运的玩家! 你只有千分之一的概率获得此物品。",
+    "advancements.hunter.final_supply.description": "你是最幸运的玩家！你只有千分之一的概率获得此物品。",
     "advancements.hunter.final_supply.title": "死亡的终极馈赠",
     "advancements.hunter.eat_final_supply.description": "吃掉死亡的终极馈赠!",
     "advancements.hunter.eat_final_supply.title": "君临天下",
