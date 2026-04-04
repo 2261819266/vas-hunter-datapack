@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": "crossbow"
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "ender_pearl"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "vas:death_supply"
+    ]
+  }
+}

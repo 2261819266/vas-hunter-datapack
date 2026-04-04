@@ -1,0 +1,1 @@
+execute summon ender_pearl run data modify entity @s {} merge from entity @n[type=arrow]
