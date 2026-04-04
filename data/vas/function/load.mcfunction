@@ -1,5 +1,7 @@
 tellraw @a { translate: info.vas.load, with: [{ keybind: "key.quickActions", color: "green" }] }
 
+# execute if score scoreboard_init vas.sys matches 1 run return 0
+
 # add scoreboard #*
 scoreboard objectives add vas.temp dummy
 scoreboard objectives add vas.cycle dummy
@@ -21,6 +23,7 @@ scoreboard objectives add vas.success dummy
 scoreboard objectives add vas.hasItem dummy
 scoreboard objectives add vas.health health
 scoreboard objectives add vas.supply dummy
+        # used
 scoreboard objectives add vas.used.crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add vas.used.bow minecraft.used:minecraft.bow
         # rule 
@@ -66,16 +69,12 @@ scoreboard objectives add vas.rule.freeze trigger
 scoreboard objectives add vas.rule.supply_time trigger
 scoreboard objectives add vas.control.rule trigger
 scoreboard objectives add vas.compass.choose trigger
-    # use item @a
-# scoreboard objectives add vas.use.compass used:compass
-# scoreboard objectives add vas.cs_use used:carrot_on_a_stick cs_use
 
-# init
+## init
     # rule
 execute unless score defaultHasApply vas.rule matches 1 run function vas:rule/apply_default_rule
     # score
         # #sys: system variable
-# execute unless score show.command vas.sys matches 0..1 run scoreboard players set show.command vas.sys 0
 execute unless score process vas.sys matches 0..1 run scoreboard players set process vas.sys 0 
     # gamerule
 gamerule locator_bar false
@@ -84,17 +83,16 @@ team add hunter {translate: team.vas.hunter}
 team modify hunter color red
 team add runner {translate: team.vas.runner}
 team modify runner color green
-
+    # dimension
 function vas:dimension/default_dimension_register
-
+    #setdisplay
 scoreboard objectives setdisplay below_name vas.kill
 scoreboard objectives setdisplay list vas.die
-
-# schedule init 
+    # schedule
 function vas:detect/schedule/change_inventory
 function vas:detect/schedule/pt5
 function vas:detect/schedule/pt20
-function vas:detect/schedule/pt2
-
-# bossbar
+    # bossbar
 bossbar add vas:freeze { translate: "bossbar.vas.freeze.title", color: "red" }
+
+scoreboard players set scoreboard_init vas.sys 1
