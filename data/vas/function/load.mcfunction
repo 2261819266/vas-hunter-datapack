@@ -21,6 +21,8 @@ scoreboard objectives add vas.success dummy
 scoreboard objectives add vas.hasItem dummy
 scoreboard objectives add vas.health health
 scoreboard objectives add vas.supply dummy
+scoreboard objectives add vas.used.crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives add vas.used.bow minecraft.used:minecraft.bow
         # rule 
 scoreboard objectives add vas.rule dummy
     # trigger @a
@@ -92,6 +94,7 @@ scoreboard objectives setdisplay list vas.die
 function vas:detect/schedule/change_inventory
 function vas:detect/schedule/pt5
 function vas:detect/schedule/pt20
+function vas:detect/schedule/pt2
 
 # bossbar
 bossbar add vas:freeze { translate: "bossbar.vas.freeze.title", color: "red" }

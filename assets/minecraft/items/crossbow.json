@@ -1,0 +1,184 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:arrow"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:tipped_arrow"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:spectral_arrow"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_firework"
+        },
+        "when": [
+          {
+            "id": "minecraft:firework_rocket"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "model",
+              "model": "item/crossbow_arrow"
+            },
+            {
+              "type": "model",
+              "model": "item/ender_pearl"
+            }
+          ]
+        },
+        "when": [
+          {
+            "id": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:arrow",
+            "components": {
+              "intangible_projectile": {}
+            }
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+              "intangible_projectile": {}
+            }
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_arrow"
+        },
+        "when": [
+          {
+            "id": "minecraft:spectral_arrow",
+            "components": {
+              "intangible_projectile": {}
+            }
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_firework"
+        },
+        "when": [
+          {
+            "id": "minecraft:firework_rocket",
+            "components": {
+              "intangible_projectile": {}
+            }
+          }
+        ]
+      },
+      {
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "model",
+              "model": "item/crossbow_arrow"
+            },
+            {
+              "type": "model",
+              "model": "item/ender_pearl"
+            }
+          ]
+        },
+        "when": [
+          {
+            "id": "minecraft:ender_pearl",
+            "components": {
+              "intangible_projectile": {}
+            }
+          }
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/crossbow"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_1"
+            },
+            "threshold": 0.58
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_2"
+            },
+            "threshold": 1.0
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_pulling_0"
+        },
+        "property": "minecraft:crossbow/pull"
+      },
+      "property": "minecraft:using_item"
+    },
+    "property": "minecraft:component",
+    "component": "minecraft:charged_projectiles"
+  }
+}
