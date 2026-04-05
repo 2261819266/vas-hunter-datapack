@@ -39,3 +39,5 @@ scoreboard players operation freezing_time vas.sys = freeze vas.rule
 execute as @a[team=hunter] run function vas:player/freeze
 schedule function vas:detect/schedule/freeze 1s replace
 execute as @a[team=hunter] at @s run playsound block.stone.place record @s ~ ~ ~ 0.9 0.8 0.9
+
+execute in minecraft:the_end run forceload add -256 -256 256 256

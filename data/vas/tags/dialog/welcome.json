@@ -12,6 +12,7 @@
     "vas:welcomes/compass",
     "vas:welcomes/music",
     "vas:welcomes/command",
-    "vas:welcomes/rules"
+    "vas:welcomes/rules",
+    "vas:welcomes/debug"
   ]
 }

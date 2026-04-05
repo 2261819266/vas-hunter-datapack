@@ -1,0 +1,28 @@
+{
+  "type": "multi_action",
+  "title": "Debug",
+  "actions": [
+    {
+      "label": "return to lobby",
+      "action": {
+        "type": "run_command",
+        "command": "tp @s 0 -60 0"
+      }
+    },
+    {
+      "label": "to overworld",
+      "action": {
+        "type": "run_command",
+        "command": "function vas:random_tp/overworld"
+      }
+    },
+    {
+      "label": "show feedback",
+      "action": {
+        "type": "run_command",
+        "command": "gamerule send_command_feedback true"
+      }
+    }
+  ],
+  "columns": 1
+}

@@ -1,1 +1,0 @@
-tellraw @a { translate: info.vas.search.has }
