@@ -2,6 +2,9 @@
 
 execute if score process vas.sys matches 1 run return run tellraw @s {translate: "info.vas.reset.fail"}
 
+#delete dimensions (using delete mod and minecraft version upper to 26.1
+function vas:dimension/delete_minecraft
+
 execute in minecraft:overworld run forceload remove all
 execute in minecraft:the_nether run forceload remove all
 execute in minecraft:the_end run forceload remove all

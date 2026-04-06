@@ -7,8 +7,15 @@ function vas:detect/trigger
 function vas:player/store_pos
 
 execute if dimension the_end unless entity @e[type=ender_dragon] \
-    if loaded 0 0 0 if score process vas.sys matches 1 run \
+    if loaded 0 0 0 if score process vas.sys matches 1 \
+    if score enter_end vas.sys matches 1 run \
     function vas:control/win
+
+execute if entity @a[advancements={end/kill_dragon = true}] \
+    if score process vas.sys matches 1 run \
+    function vas:control/win
+
+execute if entity @a[advancements={story/enter_the_end = true}] run scoreboard players set enter_end vas.sys 1
 
 execute if score process vas.sys matches 1 if entity @s[gamemode=!spectator, team=runner] run \
     scoreboard players add @s vas.gameTime 1
