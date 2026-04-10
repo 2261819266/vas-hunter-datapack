@@ -1,7 +1,13 @@
 {
   "pack": {
-    "description": "hunter datapack's resourcepack for 1.21.11 to 26.1",
-    "min_format": 75,
-    "max_format": 9999
+    "description": "Vas Hunter Resource Pack",
+    "min_format": [
+      75,
+      0
+    ],
+    "max_format": [
+      84,
+      0
+    ]
   }
 }

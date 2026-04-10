@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 1,
+    "distance": 1,
+    "spread": 0,
+    "preferred_biomes": [
+      "plains"
+    ],
+    "salt": 0
+  },
+  "structures": [
+    {
+      "structure": "vas:lobby",
+      "weight": 1
+    }
+  ]
+}

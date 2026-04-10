@@ -39,7 +39,7 @@ scoreboard objectives add vas.control.stop trigger {translate: score.vas.stop}
 scoreboard objectives add vas.control.reset trigger {translate: score.vas.reset}
 scoreboard objectives add vas.control.quit trigger {translate: score.vas.quit}
 scoreboard objectives add vas.control.glow trigger {translate: score.vas.glow}
-scoreboard objectives add vas.control.end_tp trigger {translate: score.vas.glow}
+scoreboard objectives add vas.control.end_tp trigger {translate: dialog.vas.end_tp.title}
 scoreboard objectives add vas.share trigger {translate: score.vas.share}
 scoreboard objectives add vas.tracking trigger {translate: score.vas.tracking}
 scoreboard objectives add vas.focus trigger {translate: score.vas.tracking}

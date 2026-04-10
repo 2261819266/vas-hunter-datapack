@@ -1,2 +1,5 @@
 assets/vas/sounds
 .vscode
+run
+resourcepacks/vas-hunter-resourcepack/assets/vas/sounds
+start.bat

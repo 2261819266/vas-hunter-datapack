@@ -1,7 +1,6 @@
 {
   "values": [
     "vas:welcomes/select",
-    "vas:welcomes/reset",
     "vas:welcomes/start",
     "vas:welcomes/glow",
     "vas:welcomes/share",
@@ -13,6 +12,7 @@
     "vas:welcomes/music",
     "vas:welcomes/command",
     "vas:welcomes/rules",
+    "vas:welcomes/reset",
     "vas:welcomes/debug"
   ]
 }

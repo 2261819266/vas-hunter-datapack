@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "vas:lobby",
+  "size": 1,
+  "start_height": {
+    "absolute": 64
+  },
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false,
+  "biomes": [
+    "plains"
+  ],
+  "step": "raw_generation",
+  "spawn_overrides": {}
+}
