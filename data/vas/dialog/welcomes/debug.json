@@ -6,7 +6,7 @@
       "label": "return to lobby",
       "action": {
         "type": "run_command",
-        "command": "execute in vas:lobby run tp @s 0 -60 0"
+        "command": "execute in vas:lobby run tp @s 0 64 0"
       }
     },
     {

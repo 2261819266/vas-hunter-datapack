@@ -7,7 +7,7 @@ title @a title {translate: "title.vas.start"}
 
 time set day
 weather clear
-difficulty normal
+difficulty easy
 
 gamemode survival @a[team=runner]
 gamemode survival @a[team=hunter]

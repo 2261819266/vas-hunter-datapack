@@ -78,6 +78,7 @@ execute unless score defaultHasApply vas.rule matches 1 run function vas:rule/ap
 execute unless score process vas.sys matches 0..1 run scoreboard players set process vas.sys 0 
     # gamerule
 gamerule locator_bar false
+gamerule command_block_output false
     # team
 team add hunter {translate: team.vas.hunter}
 team modify hunter color red

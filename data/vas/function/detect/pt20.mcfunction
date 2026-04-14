@@ -43,3 +43,5 @@ execute as @a at @s if score compass.update vas.rule matches 1 \
 
 execute if entity @s[predicate=vas:player/health, scores={vas.supply=1..}] run \
     function vas:control/supply
+
+execute at @s if dimension vas:lobby run function vas:lobby/detect/pt20

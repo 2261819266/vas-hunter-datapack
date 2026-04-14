@@ -10,7 +10,7 @@ execute in minecraft:the_nether run forceload remove all
 execute in minecraft:the_end run forceload remove all
 execute in minecraft:the_end run forceload add -32 -32 32 32
 
-difficulty normal
+difficulty easy
 
 # execute at @s in minecraft:overworld run spreadplayers ~ ~ 0 20 false @s
 

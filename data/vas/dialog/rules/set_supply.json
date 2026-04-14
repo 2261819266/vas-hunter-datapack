@@ -34,7 +34,7 @@
       "type": "number_range",
       "start": 0,
       "end": 16,
-      "initial": 3,
+      "initial": 2,
       "label": {
         "translate": "dialog.vas.supply.label.count"
       },

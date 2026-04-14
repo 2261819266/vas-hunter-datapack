@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:overworld",
+  "type": "vas:lobby",
   "generator": {
     "type": "minecraft:flat",
     "settings": {
       "layers": [
         {
-          "block": "minecraft:stone",
-          "height": 1
+          "block": "air",
+          "height": 256
+        },
+        {
+          "block": "glass",
+          "height": 3
         }
       ],
-      "structure_overrides": [],
-      "biome": "minecraft:plains",
+      "structure_overrides": [
+        "vas:lobby"
+      ],
+      "biome": "vas:lobby",
       "features": false,
       "lakes": false
     }
