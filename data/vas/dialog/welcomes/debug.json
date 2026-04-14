@@ -7,21 +7,32 @@
       "action": {
         "type": "run_command",
         "command": "execute in vas:lobby run tp @s 0 64 0"
-      }
+      },
+      "width": 300
     },
     {
       "label": "to overworld",
       "action": {
         "type": "run_command",
         "command": "function vas:random_tp/overworld"
-      }
+      },
+      "width": 300
     },
     {
       "label": "show feedback",
       "action": {
         "type": "run_command",
         "command": "gamerule send_command_feedback true"
-      }
+      },
+      "width": 300
+    },
+    {
+      "label": "show datapack command feedback",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "vas:welcomes/command"
+      },
+      "width": 300
     }
   ],
   "columns": 1

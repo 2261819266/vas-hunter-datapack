@@ -1,0 +1,39 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "components": {
+              "charged_projectiles": [
+                {
+                  "id": "ender_pearl"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "components": {
+              "charged_projectiles": [
+                {
+                  "id": "ender_pearl"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

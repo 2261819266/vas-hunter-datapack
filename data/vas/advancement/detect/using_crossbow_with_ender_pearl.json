@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "using_item",
+      "conditions": {
+        "item": {
+          "items": "crossbow"
+        },
+        "player": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "ender_pearl"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "items": "ender_pearl"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "vas:crossbow/using"
+  }
+}

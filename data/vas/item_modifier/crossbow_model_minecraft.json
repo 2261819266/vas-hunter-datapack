@@ -1,6 +1,6 @@
 {
   "function": "set_components",
   "components": {
-    "item_model": "vas:crossbow_ender_pearl"
+    "item_model": "minecraft:crossbow"
   }
 }

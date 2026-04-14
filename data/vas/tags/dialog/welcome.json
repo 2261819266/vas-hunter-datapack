@@ -9,8 +9,6 @@
     "vas:welcomes/stop",
     "vas:welcomes/gamemode",
     "vas:welcomes/compass",
-    "vas:welcomes/music",
-    "vas:welcomes/command",
     "vas:welcomes/rules",
     "vas:welcomes/reset",
     "vas:welcomes/debug"
