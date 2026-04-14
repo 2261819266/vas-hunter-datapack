@@ -20,10 +20,6 @@ execute if entity @a[advancements={story/enter_the_end = true}] run scoreboard p
 execute if score process vas.sys matches 1 if entity @s[gamemode=!spectator, team=runner] run \
     scoreboard players add @s vas.gameTime 1
 
-# execute if score @s vas.music.random matches 1 run function vas:music/random
-execute if score @s vas.music.random matches -1 run function vas:music/random_again
-execute if score @s vas.music.select_again matches 1.. run function vas:music/select_music_again
-
 execute if score process vas.sys matches 1 if score runnerIsGlow vas.rule matches 1 run \
     effect give @a[team=runner] glowing 15 0 true
 

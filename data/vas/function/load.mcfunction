@@ -16,7 +16,6 @@ scoreboard objectives add vas.dieDetect deathCount
 scoreboard objectives add vas.die deathCount { translate: score.vas.die }
 scoreboard objectives add vas.kill playerKillCount { translate: score.vas.kill }
 scoreboard objectives add vas.gameTime dummy { translate: score.vas.gameTime }
-scoreboard objectives add vas.musicTime dummy
 scoreboard objectives add vas.have_structure dummy
 scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
@@ -47,10 +46,6 @@ scoreboard objectives add vas.compass.change.nearest trigger {translate: score.v
 scoreboard objectives add vas.compass.change.random trigger {translate: score.vas.compass.change.random}
 scoreboard objectives add vas.compass.get trigger {translate: score.vas.compass.get}
 scoreboard objectives add vas.gamemode trigger {translate: score.vas.gamemode}
-scoreboard objectives add vas.music.random trigger {translate: score.vas.music.random}
-scoreboard objectives add vas.music.stop trigger {translate: score.vas.music.stop}
-scoreboard objectives add vas.music.select trigger
-scoreboard objectives add vas.music.select_again trigger
 scoreboard objectives add vas.rule.runnerDiedToBe trigger
 scoreboard objectives add vas.rule.runnerIsGlow trigger
 scoreboard objectives add vas.rule.compass.update trigger
