@@ -1,22 +1,22 @@
 {
   "type": "confirmation",
   "title": {
-    "translate": "dialog.vas.freeze.title"
+    "translate": "dialog.vas.end_tp_cooldown.title"
   },
   "body": {
     "type": "plain_message",
     "contents": {
-      "translate": "dialog.vas.freeze.info"
+      "translate": "dialog.vas.end_tp_cooldown.info"
     },
     "width": 300
   },
   "yes": {
     "label": {
-      "translate": "dialog.vas.freeze.yes"
+      "translate": "dialog.vas.end_tp_cooldown.yes"
     },
     "action": {
       "type": "dynamic/run_command",
-      "template": "trigger vas.rule.freeze set $(time)"
+      "template": "trigger vas.rule.end_tp_cooldown set $(time)"
     }
   },
   "no": {
@@ -32,13 +32,13 @@
     {
       "key": "time",
       "type": "number_range",
-      "start": 0,
-      "end": 180,
-      "initial": 30,
+      "start": 1,
+      "end": 20,
+      "initial": 5,
       "label": {
-        "translate": "dialog.vas.freeze.label.time"
+        "translate": "dialog.vas.end_tp_cooldown.label.time"
       },
-      "step": 5
+      "step": 1
     }
   ]
 }

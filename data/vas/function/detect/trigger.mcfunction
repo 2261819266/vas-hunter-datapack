@@ -97,3 +97,8 @@ execute if score @s vas.control.end_tp matches 1 run \
     function vas:control/end_tp
 scoreboard players set @s vas.control.end_tp 0
 scoreboard players enable @s vas.control.end_tp
+
+execute if score @s vas.rule.end_tp_cooldown matches 0.. run \
+    function vas:rule/specific/set_end_tp_cooldown
+scoreboard players set @s vas.rule.end_tp_cooldown -1
+scoreboard players enable @s vas.rule.end_tp_cooldown

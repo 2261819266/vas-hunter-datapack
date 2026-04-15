@@ -41,3 +41,7 @@ schedule function vas:detect/schedule/freeze 1s replace
 execute as @a[team=hunter] at @s run playsound block.stone.place record @s ~ ~ ~ 0.9 0.8 0.9
 
 execute in minecraft:the_end run forceload add -256 -256 256 256
+
+effect give @a saturation 1 255
+
+scoreboard players operation @a vas.end_tp_cooldown_time = end_tp_cooldown vas.rule

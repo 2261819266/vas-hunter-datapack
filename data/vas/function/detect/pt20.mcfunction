@@ -41,3 +41,12 @@ execute if entity @s[predicate=vas:player/health, scores={vas.supply=1..}] run \
     function vas:control/supply
 
 execute at @s if dimension vas:lobby run function vas:lobby/detect/pt20
+
+execute if entity @a[team=runner, advancements={minecraft:story/enter_the_end=true}] \
+    if score process vas.sys matches 1 if score @s vas.end_tp_cooldown_time matches 1 run \
+    tellraw @s {translate: info.vas.end_tp.can}
+
+execute if entity @a[team=runner, advancements={minecraft:story/enter_the_end=true}] \
+    if score process vas.sys matches 1 if score @s vas.end_tp_cooldown_time matches 1.. run \
+    scoreboard players remove @s vas.end_tp_cooldown_time 1
+    

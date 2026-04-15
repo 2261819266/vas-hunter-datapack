@@ -91,6 +91,10 @@
     "dialog.vas.end_tp.title": "\u00a7cEnd Hunt",
     "dialog.vas.end_tp.yes": "CONFIRM",
     "dialog.vas.end_tp.info": "You will be teleported to the End Island and face the enemy, assuming that the enemy has reached the End Island",
+    "dialog.vas.end_tp_cooldown.title": "\u00a7dChange End TP Cooldown",
+    "dialog.vas.end_tp_cooldown.yes": "Confirm",
+    "dialog.vas.end_tp_cooldown.info": "Set the cooldown time for the hunter's End TP ability",
+    "dialog.vas.end_tp_cooldown.label.time": "Time (min)",
 
     "info.vas.item.lore.owner": "\u00a7dOwner : ",
     "info.vas.item.lore.track": "\u00a7dTracking : ",
@@ -162,5 +166,8 @@
     "info.vas.glow.tell": "\u00a7dGlow skill cooldown left %s minutes!",
     "info.vas.end_tp.fail.process": "\u00a7cThe game has not started yet",
     "info.vas.end_tp.fail.team": "\u00a7cOnly hunters can use this ability!",
-    "info.vas.end_tp.fail.none": "\u00a7cThere is no runner who has been to the end!"
+    "info.vas.end_tp.fail.none": "\u00a7cThere is no runner who has been to the end!",
+    "info.vas.end_tp.fail.dimension": "\u00a7cPlease use it in overworld!",
+    "info.vas.end_tp.fail.time": "\u00a7cSkill cooldown (%s s)",
+    "info.vas.end_tp.can": "\u00a7aYou can use the End TP ability!"
 }

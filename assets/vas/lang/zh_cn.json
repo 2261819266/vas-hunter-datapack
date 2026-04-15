@@ -91,6 +91,10 @@
     "dialog.vas.end_tp.title": "\u00a7c终末追击",
     "dialog.vas.end_tp.yes": "确认",
     "dialog.vas.end_tp.info": "你将会直接传送到末地主岛与逃生者交战, 前提是逃生者已经到达末地",
+    "dialog.vas.end_tp_cooldown.title": "\u00a7d更改终末追击冷却时间",
+    "dialog.vas.end_tp_cooldown.yes": "确认",
+    "dialog.vas.end_tp_cooldown.info": "设置终末追击能力冷却时间",
+    "dialog.vas.end_tp_cooldown.label.time": "时间 (min)",
     
     "info.vas.item.lore.owner": "\u00a7d所有者 : ",
     "info.vas.item.lore.track": "\u00a7d追踪 : ",
@@ -162,5 +166,8 @@
     "info.vas.glow.tell": "发光技能冷却还剩 %s 分钟!",
     "info.vas.end_tp.fail.process": "\u00a7c游戏尚未开始",
     "info.vas.end_tp.fail.team": "\u00a7c只有猎人可以终末追击",
-    "info.vas.end_tp.fail.none": "\u00a7c没有逃生者达到过末地"
+    "info.vas.end_tp.fail.none": "\u00a7c没有逃生者达到过末地",
+    "info.vas.end_tp.fail.dimension": "\u00a7c请在主世界使用",
+    "info.vas.end_tp.fail.time": "\u00a7c技能冷却中（%s s）",
+    "info.vas.end_tp.can": "\u00a7a你可以使用终末追击了!"
 }

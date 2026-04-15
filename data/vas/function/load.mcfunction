@@ -22,6 +22,7 @@ scoreboard objectives add vas.success dummy
 scoreboard objectives add vas.hasItem dummy
 scoreboard objectives add vas.health health
 scoreboard objectives add vas.supply dummy
+scoreboard objectives add vas.end_tp_cooldown_time dummy
         # used
 scoreboard objectives add vas.used.crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add vas.used.bow minecraft.used:minecraft.bow
@@ -60,6 +61,7 @@ scoreboard objectives add vas.rule.runner.canTrack.runner trigger
 scoreboard objectives add vas.rule.supply.count trigger
 scoreboard objectives add vas.rule.glow_time trigger
 scoreboard objectives add vas.rule.glow_cooldown trigger
+scoreboard objectives add vas.rule.end_tp_cooldown trigger
 scoreboard objectives add vas.rule.freeze trigger
 scoreboard objectives add vas.rule.supply_time trigger
 scoreboard objectives add vas.control.rule trigger
@@ -92,3 +94,5 @@ function vas:detect/schedule/pt20
 bossbar add vas:freeze { translate: "bossbar.vas.freeze.title", color: "red" }
 
 scoreboard players set scoreboard_init vas.sys 1
+
+execute unless score constant_set vas.constant matches 0..1 run function vas:set_constant
