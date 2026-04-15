@@ -1,8 +1,8 @@
 $data modify entity @s text set value \
-    {selector: "@a[tag=!building_choice, predicate=vas:player/can_be_tracked_by_$(team)]"}
+    {selector: "@a[tag=!building_choice, predicate=vas:player/can_be_tracked_by_$(team), sort=nearest]"}
 
 $execute store result score choose.canTrack vas.temp run \
-    execute if entity @a[tag=!building_choice, predicate=vas:player/can_be_tracked_by_$(team)]
+    execute if entity @a[tag=!building_choice, predicate=vas:player/can_be_tracked_by_$(team), sort=nearest]
 
 # tellraw @p {score: {name: "choose.canTrack", objective: "vas.temp"}}
 

@@ -77,3 +77,10 @@ execute if score @s vas.rule.runner.canTrack.runner matches 0..1 run \
 scoreboard players set @s vas.rule.runner.canTrack.runner -1
 scoreboard players enable @s vas.rule.runner.canTrack.runner
 
+execute if score @s vas.rule.compass.detector matches 0..1 run \
+    scoreboard players operation compass.detector vas.rule = @s vas.rule.compass.detector
+execute if score @s vas.rule.compass.detector matches 0..1 run \
+    function vas:rule/change
+scoreboard players set @s vas.rule.compass.detector -1
+scoreboard players enable @s vas.rule.compass.detector
+

@@ -22,6 +22,7 @@ function vas:rule/change_apply { rule: hunter.canTrack.hunter }
 function vas:rule/change_apply { rule: hunter.canTrack.runner }
 function vas:rule/change_apply { rule: runner.canTrack.hunter }
 function vas:rule/change_apply { rule: runner.canTrack.runner }
+function vas:rule/change_apply { rule: compass.detector }
 
 execute if score runnerDiedToBe vas.rule matches 0 run \
     data modify storage vas:temp dialog.actions[0].label[1].translate set value dialog.vas.rule.spectator

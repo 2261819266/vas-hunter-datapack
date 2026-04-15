@@ -1,11 +1,11 @@
 # function vas:message/tell {path:"/compass/refresh/"}
 
-scoreboard players set @s vas.use.compass 0
+# scoreboard players set @s vas.use.compass 0
 
 data remove storage vas:temp refresh
 
-execute unless predicate vas:hand/tracker_offhand unless predicate vas:hand/tracker_mainhand run \
-    return fail
+# execute unless predicate vas:hand/tracker_offhand unless predicate vas:hand/tracker_mainhand run \
+#     return fail
 
 execute if predicate vas:hand/tracker_offhand run \
     data modify storage vas:temp refresh.hand set value "offhand"

@@ -17,6 +17,7 @@ scoreboard players set hunter.canTrack.hunter vas.rule 0
 scoreboard players set hunter.canTrack.runner vas.rule 1
 scoreboard players set runner.canTrack.hunter vas.rule 0
 scoreboard players set runner.canTrack.runner vas.rule 0
+scoreboard players set compass.detector vas.rule 1
 
 scoreboard players set supply.count vas.rule 2
 scoreboard players set glow_cooldown vas.rule 5

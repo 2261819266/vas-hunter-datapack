@@ -4,6 +4,10 @@
     "item.vas.death_supply.final": "\u00a7d死亡的终极馈赠",
     "item.vas.death_supply.final.lore": "\u00a7a你是最幸运的玩家!",
     "item.vas.death_supply.final.lore.2": "\u00a7a你只有千分之一的概率获得此物品。",
+    "item.vas.detector": "\u00a7d护身符",
+    "item.vas.detector.lore": "\u00a7d手持以获取最近猎人距离",
+    "item.vas.detector.show": "最近猎人距离在 %s百米 以内",
+    "item.vas.detector.none": "在你的维度没有猎人",
 
     "dialog.vas.exit": "退出",
     "dialog.vas.return": "返回",
@@ -55,6 +59,7 @@
     "dialog.vas.rule.hunter.canTrack.runner": "猎人是否可以追踪逃生者: ",
     "dialog.vas.rule.runner.canTrack.hunter": "逃生者是否可以追踪猎人: ",
     "dialog.vas.rule.runner.canTrack.runner": "逃生者是否可以追踪队友: ",
+    "dialog.vas.rule.compass.detector": "逃生者是否可以拥有护身符",
     "dialog.vas.rule.yes": "\u00a7a是",
     "dialog.vas.rule.no": "\u00a7c否",
     "dialog.vas.rule.spectator": "旁观者",

@@ -1,0 +1,36 @@
+[
+  {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "team": "runner"
+    }
+  },
+  {
+    "condition": "any_of",
+    "terms": [
+      {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "recovery_compass"
+            }
+          }
+        }
+      },
+      {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "recovery_compass"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -43,5 +43,9 @@ execute as @a[team=hunter] at @s run playsound block.stone.place record @s ~ ~ ~
 execute in minecraft:the_end run forceload add -256 -256 256 256
 
 effect give @a saturation 1 255
+effect give @a instant_health 1 255
 
 scoreboard players operation @a vas.end_tp_cooldown_time = end_tp_cooldown vas.rule
+
+execute if score compass.detector vas.rule matches 1 \
+  as @a[team=runner] run loot give @s loot vas:detector

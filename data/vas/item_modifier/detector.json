@@ -1,0 +1,40 @@
+[
+  {
+    "function": "set_item",
+    "item": "recovery_compass"
+  },
+  {
+    "function": "set_name",
+    "name": "detector",
+    "target": "item_name"
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "translate": "item.vas.detector"
+    },
+    "target": "custom_name"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "detector": 1
+    }
+  },
+  {
+    "function": "set_lore",
+    "lore": [
+      {
+        "translate": "item.vas.detector.lore"
+      }
+    ],
+    "entity": "this",
+    "mode": "replace_all"
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "max_stack_size": 1
+    }
+  }
+]
