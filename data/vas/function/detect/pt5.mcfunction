@@ -8,3 +8,5 @@ function vas:detect/rule_trigger
 
 
 execute at @s if dimension vas:lobby run function vas:lobby/detect/pt5
+
+execute if score @s vas.leave_game matches 1.. run function vas:player/load

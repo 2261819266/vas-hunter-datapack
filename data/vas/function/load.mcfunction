@@ -25,6 +25,7 @@ scoreboard objectives add vas.health.dummy dummy
 scoreboard objectives add vas.supply dummy
 scoreboard objectives add vas.end_tp_cooldown_time dummy
 scoreboard objectives add vas.detector.distance dummy
+scoreboard objectives add vas.leave_game minecraft.custom:minecraft.leave_game
         # used
 scoreboard objectives add vas.used.crossbow minecraft.used:minecraft.crossbow
 scoreboard objectives add vas.used.bow minecraft.used:minecraft.bow

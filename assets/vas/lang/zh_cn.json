@@ -1,4 +1,8 @@
 {
+    "resourcepack.vas.load.title.0.1": "资源包已加载",
+    "resourcepack.vas.load.subtitle.0.1": "资源包已为最新版",
+    "resourcepack.vas.load.notLatest": "资源包已过期，请下载最新版资源包或启用服务器资源包",
+
     "item.vas.tracker": "\u00a7d追踪器",
     "item.vas.death_supply": "\u00a7d死亡的馈赠",
     "item.vas.death_supply.final": "\u00a7d死亡的终极馈赠",

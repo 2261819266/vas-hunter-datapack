@@ -6,4 +6,6 @@ function vas:player/assign_uid
 function vas:detect/changed_dimension
 team join hunter
 
+function vas:player/load
+
 # function vas:control/show
