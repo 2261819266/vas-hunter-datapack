@@ -33,6 +33,8 @@ function vas:detect/schedule/pm_for_glow
 
 # bossbar
 execute if score freeze vas.rule matches ..0 run return 0
+execute store result bossbar vas:freeze max run \
+  scoreboard players get freeze vas.rule
 bossbar set vas:freeze visible true
 bossbar set vas:freeze players @a
 scoreboard players operation freezing_time vas.sys = freeze vas.rule

@@ -1,6 +1,6 @@
 assets/vas/sounds
 .vscode
 run
-resourcepack
+resourcepacks
 start.bat
 data/vas/function/test

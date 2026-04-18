@@ -1,4 +1,7 @@
 {
+    "resourcepack.vas.load.title": "Resourcepack has Loaded",
+    "resourcepack.vas.load.0.1": "Resourcepack is the latest version",
+
     "item.vas.tracker": "\u00a7dTracker",
     "item.vas.death_supply": "\u00a7dThe gift of death",
     "item.vas.death_supply.final": "\u00a7dThe ultimate gift of death",
