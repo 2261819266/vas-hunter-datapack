@@ -5,3 +5,6 @@
 execute if score @s vas.dieDetect matches 1.. run function vas:detect/die
 
 function vas:detect/rule_trigger
+
+
+execute at @s if dimension vas:lobby run function vas:lobby/detect/pt5

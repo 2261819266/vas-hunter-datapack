@@ -13,7 +13,7 @@ scoreboard players set compass.dimension vas.rule 0
 scoreboard players set compass.distance vas.rule 0
 scoreboard players set compass.xz vas.rule 0
 scoreboard players set compass.y vas.rule 0
-scoreboard players set hunter.canTrack.hunter vas.rule 0
+scoreboard players set hunter.canTrack.hunter vas.rule 1
 scoreboard players set hunter.canTrack.runner vas.rule 1
 scoreboard players set runner.canTrack.hunter vas.rule 0
 scoreboard players set runner.canTrack.runner vas.rule 0

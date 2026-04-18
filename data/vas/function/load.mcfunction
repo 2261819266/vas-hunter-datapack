@@ -21,6 +21,7 @@ scoreboard objectives add vas.distance_set dummy
 scoreboard objectives add vas.success dummy
 scoreboard objectives add vas.hasItem dummy
 scoreboard objectives add vas.health health
+scoreboard objectives add vas.health.dummy dummy
 scoreboard objectives add vas.supply dummy
 scoreboard objectives add vas.end_tp_cooldown_time dummy
 scoreboard objectives add vas.detector.distance dummy
